@@ -39,50 +39,64 @@ local RoundedBG_15 = Instance.new("UICorner")
 local PageNumber = Instance.new("TextButton")
 local Page2 = Instance.new("Frame")
 local ButtonName_8 = Instance.new("TextButton")
+local RoundedBG_16 = Instance.new("UICorner")
 local ButtonName_9 = Instance.new("TextButton")
+local RoundedBG_17 = Instance.new("UICorner")
 local ButtonName_10 = Instance.new("TextButton")
+local RoundedBG_18 = Instance.new("UICorner")
 local ButtonName_11 = Instance.new("TextButton")
+local RoundedBG_19 = Instance.new("UICorner")
 local ButtonName_12 = Instance.new("TextButton")
+local RoundedBG_20 = Instance.new("UICorner")
 local ButtonName_13 = Instance.new("TextButton")
+local RoundedBG_21 = Instance.new("UICorner")
 local ButtonName_14 = Instance.new("TextButton")
+local RoundedBG_22 = Instance.new("UICorner")
 local ButtonName_15 = Instance.new("TextButton")
+local RoundedBG_23 = Instance.new("UICorner")
 local ButtonName_16 = Instance.new("TextButton")
+local RoundedBG_24 = Instance.new("UICorner")
 local ButtonName_17 = Instance.new("TextButton")
+local RoundedBG_25 = Instance.new("UICorner")
 local ButtonName_18 = Instance.new("TextButton")
+local RoundedBG_26 = Instance.new("UICorner")
 local ButtonName_19 = Instance.new("TextButton")
+local RoundedBG_27 = Instance.new("UICorner")
 local PageNumber_2 = Instance.new("TextButton")
 local Page_2 = Instance.new("TextButton")
+local RoundedBG_28 = Instance.new("UICorner")
 local Page_3 = Instance.new("TextButton")
+local RoundedBG_29 = Instance.new("UICorner")
 local Page3 = Instance.new("Frame")
 local ButtonName_20 = Instance.new("TextButton")
-local RoundedBG_16 = Instance.new("UICorner")
+local RoundedBG_30 = Instance.new("UICorner")
 local ButtonName_21 = Instance.new("TextButton")
-local RoundedBG_17 = Instance.new("UICorner")
+local RoundedBG_31 = Instance.new("UICorner")
 local ButtonName_22 = Instance.new("TextButton")
-local RoundedBG_18 = Instance.new("UICorner")
+local RoundedBG_32 = Instance.new("UICorner")
 local ButtonName_23 = Instance.new("TextButton")
-local RoundedBG_19 = Instance.new("UICorner")
+local RoundedBG_33 = Instance.new("UICorner")
 local ButtonName_24 = Instance.new("TextButton")
-local RoundedBG_20 = Instance.new("UICorner")
+local RoundedBG_34 = Instance.new("UICorner")
 local ButtonName_25 = Instance.new("TextButton")
-local RoundedBG_21 = Instance.new("UICorner")
+local RoundedBG_35 = Instance.new("UICorner")
 local ButtonName_26 = Instance.new("TextButton")
-local RoundedBG_22 = Instance.new("UICorner")
+local RoundedBG_36 = Instance.new("UICorner")
 local ButtonName_27 = Instance.new("TextButton")
-local RoundedBG_23 = Instance.new("UICorner")
+local RoundedBG_37 = Instance.new("UICorner")
 local ButtonName_28 = Instance.new("TextButton")
-local RoundedBG_24 = Instance.new("UICorner")
+local RoundedBG_38 = Instance.new("UICorner")
 local ButtonName_29 = Instance.new("TextButton")
-local RoundedBG_25 = Instance.new("UICorner")
+local RoundedBG_39 = Instance.new("UICorner")
 local ButtonName_30 = Instance.new("TextButton")
-local RoundedBG_26 = Instance.new("UICorner")
+local RoundedBG_40 = Instance.new("UICorner")
 local ButtonName_31 = Instance.new("TextButton")
-local RoundedBG_27 = Instance.new("UICorner")
+local RoundedBG_41 = Instance.new("UICorner")
 local PageNumber_3 = Instance.new("TextButton")
 local Page_4 = Instance.new("TextButton")
-local RoundedBG_28 = Instance.new("UICorner")
+local RoundedBG_42 = Instance.new("UICorner")
 local Close = Instance.new("TextButton")
-local RoundedBG_29 = Instance.new("UICorner")
+local RoundedBG_43 = Instance.new("UICorner")
 
 --Properties:
 
@@ -415,8 +429,8 @@ Page2.Visible = false
 
 ButtonName_8.Name = "ButtonName"
 ButtonName_8.Parent = Page2
-ButtonName_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_8.BackgroundTransparency = 1.000
+ButtonName_8.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_8.BorderSizePixel = 0
 ButtonName_8.Position = UDim2.new(0.501999974, 10, 1.27499998, -280)
 ButtonName_8.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_8.ZIndex = 7
@@ -426,10 +440,14 @@ ButtonName_8.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_8.TextSize = 18.000
 ButtonName_8.TextWrapped = true
 
+RoundedBG_16.CornerRadius = UDim.new(0, 9)
+RoundedBG_16.Name = "RoundedBG"
+RoundedBG_16.Parent = ButtonName_8
+
 ButtonName_9.Name = "ButtonName"
 ButtonName_9.Parent = Page2
-ButtonName_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_9.BackgroundTransparency = 1.000
+ButtonName_9.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_9.BorderSizePixel = 0
 ButtonName_9.Position = UDim2.new(0.75999999, 10, 1.27499998, -280)
 ButtonName_9.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_9.ZIndex = 7
@@ -439,10 +457,14 @@ ButtonName_9.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_9.TextSize = 18.000
 ButtonName_9.TextWrapped = true
 
+RoundedBG_17.CornerRadius = UDim.new(0, 9)
+RoundedBG_17.Name = "RoundedBG"
+RoundedBG_17.Parent = ButtonName_9
+
 ButtonName_10.Name = "ButtonName"
 ButtonName_10.Parent = Page2
-ButtonName_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_10.BackgroundTransparency = 1.000
+ButtonName_10.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_10.BorderSizePixel = 0
 ButtonName_10.Position = UDim2.new(0.501999974, 10, 1.875, -280)
 ButtonName_10.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_10.ZIndex = 7
@@ -452,10 +474,14 @@ ButtonName_10.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_10.TextSize = 18.000
 ButtonName_10.TextWrapped = true
 
+RoundedBG_18.CornerRadius = UDim.new(0, 9)
+RoundedBG_18.Name = "RoundedBG"
+RoundedBG_18.Parent = ButtonName_10
+
 ButtonName_11.Name = "ButtonName"
 ButtonName_11.Parent = Page2
-ButtonName_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_11.BackgroundTransparency = 1.000
+ButtonName_11.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_11.BorderSizePixel = 0
 ButtonName_11.Position = UDim2.new(0.00400000019, 10, 1.875, -280)
 ButtonName_11.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_11.ZIndex = 7
@@ -465,10 +491,14 @@ ButtonName_11.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_11.TextSize = 18.000
 ButtonName_11.TextWrapped = true
 
+RoundedBG_19.CornerRadius = UDim.new(0, 9)
+RoundedBG_19.Name = "RoundedBG"
+RoundedBG_19.Parent = ButtonName_11
+
 ButtonName_12.Name = "ButtonName"
 ButtonName_12.Parent = Page2
-ButtonName_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_12.BackgroundTransparency = 1.000
+ButtonName_12.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_12.BorderSizePixel = 0
 ButtonName_12.Position = UDim2.new(0.75999999, 10, 1.875, -280)
 ButtonName_12.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_12.ZIndex = 7
@@ -478,10 +508,14 @@ ButtonName_12.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_12.TextSize = 18.000
 ButtonName_12.TextWrapped = true
 
+RoundedBG_20.CornerRadius = UDim.new(0, 9)
+RoundedBG_20.Name = "RoundedBG"
+RoundedBG_20.Parent = ButtonName_12
+
 ButtonName_13.Name = "ButtonName"
 ButtonName_13.Parent = Page2
-ButtonName_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_13.BackgroundTransparency = 1.000
+ButtonName_13.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_13.BorderSizePixel = 0
 ButtonName_13.Position = UDim2.new(0.00400000019, 10, 1.27499998, -280)
 ButtonName_13.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_13.ZIndex = 7
@@ -491,10 +525,14 @@ ButtonName_13.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_13.TextSize = 18.000
 ButtonName_13.TextWrapped = true
 
+RoundedBG_21.CornerRadius = UDim.new(0, 9)
+RoundedBG_21.Name = "RoundedBG"
+RoundedBG_21.Parent = ButtonName_13
+
 ButtonName_14.Name = "ButtonName"
 ButtonName_14.Parent = Page2
-ButtonName_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_14.BackgroundTransparency = 1.000
+ButtonName_14.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_14.BorderSizePixel = 0
 ButtonName_14.Position = UDim2.new(0.501999974, 10, 1.57500005, -280)
 ButtonName_14.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_14.ZIndex = 7
@@ -504,10 +542,14 @@ ButtonName_14.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_14.TextSize = 18.000
 ButtonName_14.TextWrapped = true
 
+RoundedBG_22.CornerRadius = UDim.new(0, 9)
+RoundedBG_22.Name = "RoundedBG"
+RoundedBG_22.Parent = ButtonName_14
+
 ButtonName_15.Name = "ButtonName"
 ButtonName_15.Parent = Page2
-ButtonName_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_15.BackgroundTransparency = 1.000
+ButtonName_15.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_15.BorderSizePixel = 0
 ButtonName_15.Position = UDim2.new(0.00400000019, 10, 1.57500005, -280)
 ButtonName_15.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_15.ZIndex = 7
@@ -517,10 +559,14 @@ ButtonName_15.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_15.TextSize = 18.000
 ButtonName_15.TextWrapped = true
 
+RoundedBG_23.CornerRadius = UDim.new(0, 9)
+RoundedBG_23.Name = "RoundedBG"
+RoundedBG_23.Parent = ButtonName_15
+
 ButtonName_16.Name = "ButtonName"
 ButtonName_16.Parent = Page2
-ButtonName_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_16.BackgroundTransparency = 1.000
+ButtonName_16.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_16.BorderSizePixel = 0
 ButtonName_16.Position = UDim2.new(0.75999999, 10, 1.57500005, -280)
 ButtonName_16.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_16.ZIndex = 7
@@ -530,10 +576,14 @@ ButtonName_16.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_16.TextSize = 18.000
 ButtonName_16.TextWrapped = true
 
+RoundedBG_24.CornerRadius = UDim.new(0, 9)
+RoundedBG_24.Name = "RoundedBG"
+RoundedBG_24.Parent = ButtonName_16
+
 ButtonName_17.Name = "ButtonName"
 ButtonName_17.Parent = Page2
-ButtonName_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_17.BackgroundTransparency = 1.000
+ButtonName_17.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_17.BorderSizePixel = 0
 ButtonName_17.Position = UDim2.new(0.254999995, 10, 1.57500005, -280)
 ButtonName_17.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_17.ZIndex = 7
@@ -543,10 +593,14 @@ ButtonName_17.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_17.TextSize = 18.000
 ButtonName_17.TextWrapped = true
 
+RoundedBG_25.CornerRadius = UDim.new(0, 9)
+RoundedBG_25.Name = "RoundedBG"
+RoundedBG_25.Parent = ButtonName_17
+
 ButtonName_18.Name = "ButtonName"
 ButtonName_18.Parent = Page2
-ButtonName_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_18.BackgroundTransparency = 1.000
+ButtonName_18.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_18.BorderSizePixel = 0
 ButtonName_18.Position = UDim2.new(0.254999995, 10, 1.875, -280)
 ButtonName_18.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_18.ZIndex = 7
@@ -556,10 +610,14 @@ ButtonName_18.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_18.TextSize = 18.000
 ButtonName_18.TextWrapped = true
 
+RoundedBG_26.CornerRadius = UDim.new(0, 9)
+RoundedBG_26.Name = "RoundedBG"
+RoundedBG_26.Parent = ButtonName_18
+
 ButtonName_19.Name = "ButtonName"
 ButtonName_19.Parent = Page2
-ButtonName_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_19.BackgroundTransparency = 1.000
+ButtonName_19.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_19.BorderSizePixel = 0
 ButtonName_19.Position = UDim2.new(0.254999995, 10, 1.27499998, -280)
 ButtonName_19.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_19.ZIndex = 7
@@ -568,6 +626,10 @@ ButtonName_19.Text = "Script here"
 ButtonName_19.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_19.TextSize = 18.000
 ButtonName_19.TextWrapped = true
+
+RoundedBG_27.CornerRadius = UDim.new(0, 9)
+RoundedBG_27.Name = "RoundedBG"
+RoundedBG_27.Parent = ButtonName_19
 
 PageNumber_2.Name = "Page Number"
 PageNumber_2.Parent = Page2
@@ -584,8 +646,8 @@ PageNumber_2.TextWrapped = true
 
 Page_2.Name = "Page<"
 Page_2.Parent = Page2
-Page_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page_2.BackgroundTransparency = 1.000
+Page_2.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Page_2.BorderSizePixel = 0
 Page_2.Position = UDim2.new(0.69599998, 10, 1.05499995, -280)
 Page_2.Size = UDim2.new(0, 44, 0, 32)
 Page_2.ZIndex = 7
@@ -595,10 +657,14 @@ Page_2.TextColor3 = Color3.fromRGB(61, 61, 61)
 Page_2.TextSize = 22.000
 Page_2.TextWrapped = true
 
+RoundedBG_28.CornerRadius = UDim.new(0, 9)
+RoundedBG_28.Name = "RoundedBG"
+RoundedBG_28.Parent = Page_2
+
 Page_3.Name = "Page>"
 Page_3.Parent = Page2
-Page_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page_3.BackgroundTransparency = 1.000
+Page_3.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Page_3.BorderSizePixel = 0
 Page_3.Position = UDim2.new(0.786000013, 10, 1.05499995, -280)
 Page_3.Size = UDim2.new(0, 44, 0, 32)
 Page_3.ZIndex = 7
@@ -607,6 +673,10 @@ Page_3.Text = ">"
 Page_3.TextColor3 = Color3.fromRGB(61, 61, 61)
 Page_3.TextSize = 22.000
 Page_3.TextWrapped = true
+
+RoundedBG_29.CornerRadius = UDim.new(0, 9)
+RoundedBG_29.Name = "RoundedBG"
+RoundedBG_29.Parent = Page_3
 
 Page3.Name = "Page3"
 Page3.Parent = Pages
@@ -620,8 +690,7 @@ Page3.Visible = false
 
 ButtonName_20.Name = "ButtonName"
 ButtonName_20.Parent = Page3
-ButtonName_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_20.BackgroundTransparency = 1.000
+ButtonName_20.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_20.Position = UDim2.new(0.75999999, 10, 1.875, -280)
 ButtonName_20.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_20.ZIndex = 7
@@ -631,14 +700,13 @@ ButtonName_20.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_20.TextSize = 18.000
 ButtonName_20.TextWrapped = true
 
-RoundedBG_16.CornerRadius = UDim.new(0, 9)
-RoundedBG_16.Name = "RoundedBG"
-RoundedBG_16.Parent = ButtonName_20
+RoundedBG_30.CornerRadius = UDim.new(0, 9)
+RoundedBG_30.Name = "RoundedBG"
+RoundedBG_30.Parent = ButtonName_20
 
 ButtonName_21.Name = "ButtonName"
 ButtonName_21.Parent = Page3
-ButtonName_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_21.BackgroundTransparency = 1.000
+ButtonName_21.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_21.Position = UDim2.new(0.501999974, 10, 1.27499998, -280)
 ButtonName_21.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_21.ZIndex = 7
@@ -648,14 +716,13 @@ ButtonName_21.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_21.TextSize = 18.000
 ButtonName_21.TextWrapped = true
 
-RoundedBG_17.CornerRadius = UDim.new(0, 9)
-RoundedBG_17.Name = "RoundedBG"
-RoundedBG_17.Parent = ButtonName_21
+RoundedBG_31.CornerRadius = UDim.new(0, 9)
+RoundedBG_31.Name = "RoundedBG"
+RoundedBG_31.Parent = ButtonName_21
 
 ButtonName_22.Name = "ButtonName"
 ButtonName_22.Parent = Page3
-ButtonName_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_22.BackgroundTransparency = 1.000
+ButtonName_22.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_22.Position = UDim2.new(0.501999974, 10, 1.875, -280)
 ButtonName_22.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_22.ZIndex = 7
@@ -665,14 +732,13 @@ ButtonName_22.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_22.TextSize = 18.000
 ButtonName_22.TextWrapped = true
 
-RoundedBG_18.CornerRadius = UDim.new(0, 9)
-RoundedBG_18.Name = "RoundedBG"
-RoundedBG_18.Parent = ButtonName_22
+RoundedBG_32.CornerRadius = UDim.new(0, 9)
+RoundedBG_32.Name = "RoundedBG"
+RoundedBG_32.Parent = ButtonName_22
 
 ButtonName_23.Name = "ButtonName"
 ButtonName_23.Parent = Page3
-ButtonName_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_23.BackgroundTransparency = 1.000
+ButtonName_23.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_23.Position = UDim2.new(0.254999995, 10, 1.875, -280)
 ButtonName_23.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_23.ZIndex = 7
@@ -682,14 +748,13 @@ ButtonName_23.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_23.TextSize = 18.000
 ButtonName_23.TextWrapped = true
 
-RoundedBG_19.CornerRadius = UDim.new(0, 9)
-RoundedBG_19.Name = "RoundedBG"
-RoundedBG_19.Parent = ButtonName_23
+RoundedBG_33.CornerRadius = UDim.new(0, 9)
+RoundedBG_33.Name = "RoundedBG"
+RoundedBG_33.Parent = ButtonName_23
 
 ButtonName_24.Name = "ButtonName"
 ButtonName_24.Parent = Page3
-ButtonName_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_24.BackgroundTransparency = 1.000
+ButtonName_24.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_24.Position = UDim2.new(0.00400000019, 10, 1.875, -280)
 ButtonName_24.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_24.ZIndex = 7
@@ -699,14 +764,13 @@ ButtonName_24.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_24.TextSize = 18.000
 ButtonName_24.TextWrapped = true
 
-RoundedBG_20.CornerRadius = UDim.new(0, 9)
-RoundedBG_20.Name = "RoundedBG"
-RoundedBG_20.Parent = ButtonName_24
+RoundedBG_34.CornerRadius = UDim.new(0, 9)
+RoundedBG_34.Name = "RoundedBG"
+RoundedBG_34.Parent = ButtonName_24
 
 ButtonName_25.Name = "ButtonName"
 ButtonName_25.Parent = Page3
-ButtonName_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_25.BackgroundTransparency = 1.000
+ButtonName_25.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_25.Position = UDim2.new(0.254999995, 10, 1.27499998, -280)
 ButtonName_25.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_25.ZIndex = 7
@@ -716,14 +780,13 @@ ButtonName_25.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_25.TextSize = 18.000
 ButtonName_25.TextWrapped = true
 
-RoundedBG_21.CornerRadius = UDim.new(0, 9)
-RoundedBG_21.Name = "RoundedBG"
-RoundedBG_21.Parent = ButtonName_25
+RoundedBG_35.CornerRadius = UDim.new(0, 9)
+RoundedBG_35.Name = "RoundedBG"
+RoundedBG_35.Parent = ButtonName_25
 
 ButtonName_26.Name = "ButtonName"
 ButtonName_26.Parent = Page3
-ButtonName_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_26.BackgroundTransparency = 1.000
+ButtonName_26.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_26.Position = UDim2.new(0.00400000019, 10, 1.27499998, -280)
 ButtonName_26.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_26.ZIndex = 7
@@ -733,14 +796,13 @@ ButtonName_26.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_26.TextSize = 18.000
 ButtonName_26.TextWrapped = true
 
-RoundedBG_22.CornerRadius = UDim.new(0, 9)
-RoundedBG_22.Name = "RoundedBG"
-RoundedBG_22.Parent = ButtonName_26
+RoundedBG_36.CornerRadius = UDim.new(0, 9)
+RoundedBG_36.Name = "RoundedBG"
+RoundedBG_36.Parent = ButtonName_26
 
 ButtonName_27.Name = "ButtonName"
 ButtonName_27.Parent = Page3
-ButtonName_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_27.BackgroundTransparency = 1.000
+ButtonName_27.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_27.Position = UDim2.new(0.75999999, 10, 1.27499998, -280)
 ButtonName_27.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_27.ZIndex = 7
@@ -750,14 +812,13 @@ ButtonName_27.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_27.TextSize = 18.000
 ButtonName_27.TextWrapped = true
 
-RoundedBG_23.CornerRadius = UDim.new(0, 9)
-RoundedBG_23.Name = "RoundedBG"
-RoundedBG_23.Parent = ButtonName_27
+RoundedBG_37.CornerRadius = UDim.new(0, 9)
+RoundedBG_37.Name = "RoundedBG"
+RoundedBG_37.Parent = ButtonName_27
 
 ButtonName_28.Name = "ButtonName"
 ButtonName_28.Parent = Page3
-ButtonName_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_28.BackgroundTransparency = 1.000
+ButtonName_28.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_28.Position = UDim2.new(0.75999999, 10, 1.57500005, -280)
 ButtonName_28.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_28.ZIndex = 7
@@ -767,14 +828,13 @@ ButtonName_28.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_28.TextSize = 18.000
 ButtonName_28.TextWrapped = true
 
-RoundedBG_24.CornerRadius = UDim.new(0, 9)
-RoundedBG_24.Name = "RoundedBG"
-RoundedBG_24.Parent = ButtonName_28
+RoundedBG_38.CornerRadius = UDim.new(0, 9)
+RoundedBG_38.Name = "RoundedBG"
+RoundedBG_38.Parent = ButtonName_28
 
 ButtonName_29.Name = "ButtonName"
 ButtonName_29.Parent = Page3
-ButtonName_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_29.BackgroundTransparency = 1.000
+ButtonName_29.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_29.Position = UDim2.new(0.254999995, 10, 1.57500005, -280)
 ButtonName_29.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_29.ZIndex = 7
@@ -784,14 +844,13 @@ ButtonName_29.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_29.TextSize = 18.000
 ButtonName_29.TextWrapped = true
 
-RoundedBG_25.CornerRadius = UDim.new(0, 9)
-RoundedBG_25.Name = "RoundedBG"
-RoundedBG_25.Parent = ButtonName_29
+RoundedBG_39.CornerRadius = UDim.new(0, 9)
+RoundedBG_39.Name = "RoundedBG"
+RoundedBG_39.Parent = ButtonName_29
 
 ButtonName_30.Name = "ButtonName"
 ButtonName_30.Parent = Page3
-ButtonName_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_30.BackgroundTransparency = 1.000
+ButtonName_30.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_30.Position = UDim2.new(0.501999974, 10, 1.57500005, -280)
 ButtonName_30.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_30.ZIndex = 7
@@ -801,14 +860,13 @@ ButtonName_30.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_30.TextSize = 18.000
 ButtonName_30.TextWrapped = true
 
-RoundedBG_26.CornerRadius = UDim.new(0, 9)
-RoundedBG_26.Name = "RoundedBG"
-RoundedBG_26.Parent = ButtonName_30
+RoundedBG_40.CornerRadius = UDim.new(0, 9)
+RoundedBG_40.Name = "RoundedBG"
+RoundedBG_40.Parent = ButtonName_30
 
 ButtonName_31.Name = "ButtonName"
 ButtonName_31.Parent = Page3
-ButtonName_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ButtonName_31.BackgroundTransparency = 1.000
+ButtonName_31.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 ButtonName_31.Position = UDim2.new(0.00400000019, 10, 1.57500005, -280)
 ButtonName_31.Size = UDim2.new(0, 110, 0, 48)
 ButtonName_31.ZIndex = 7
@@ -818,9 +876,9 @@ ButtonName_31.TextColor3 = Color3.fromRGB(61, 61, 61)
 ButtonName_31.TextSize = 18.000
 ButtonName_31.TextWrapped = true
 
-RoundedBG_27.CornerRadius = UDim.new(0, 9)
-RoundedBG_27.Name = "RoundedBG"
-RoundedBG_27.Parent = ButtonName_31
+RoundedBG_41.CornerRadius = UDim.new(0, 9)
+RoundedBG_41.Name = "RoundedBG"
+RoundedBG_41.Parent = ButtonName_31
 
 PageNumber_3.Name = "Page Number"
 PageNumber_3.Parent = Page3
@@ -837,7 +895,7 @@ PageNumber_3.TextWrapped = true
 
 Page_4.Name = "Page<"
 Page_4.Parent = Page3
-Page_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page_4.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
 Page_4.BorderSizePixel = 0
 Page_4.Position = UDim2.new(0.786000073, 10, 1.04301071, -280)
 Page_4.Size = UDim2.new(0, 44, 0, 34)
@@ -848,9 +906,9 @@ Page_4.TextColor3 = Color3.fromRGB(61, 61, 61)
 Page_4.TextSize = 22.000
 Page_4.TextWrapped = true
 
-RoundedBG_28.CornerRadius = UDim.new(0, 9)
-RoundedBG_28.Name = "RoundedBG"
-RoundedBG_28.Parent = Page_4
+RoundedBG_42.CornerRadius = UDim.new(0, 9)
+RoundedBG_42.Name = "RoundedBG"
+RoundedBG_42.Parent = Page_4
 
 Close.Name = "Close"
 Close.Parent = Main
@@ -865,21 +923,21 @@ Close.TextColor3 = Color3.fromRGB(61, 61, 61)
 Close.TextSize = 18.000
 Close.TextWrapped = true
 
-RoundedBG_29.CornerRadius = UDim.new(0, 9)
-RoundedBG_29.Name = "RoundedBG"
-RoundedBG_29.Parent = Close
+RoundedBG_43.CornerRadius = UDim.new(0, 9)
+RoundedBG_43.Name = "RoundedBG"
+RoundedBG_43.Parent = Close
 
 -- Scripts:
 
-local function ZUQF_fake_script() -- TpSecretIsland.SecretIsland 
+local function XNNTYCL_fake_script() -- TpSecretIsland.SecretIsland 
 	local script = Instance.new('LocalScript', TpSecretIsland)
 
 	TpSecretIsland.MouseButton1Down:connect(function()	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19456.1074, -213.206375, 989.955627, 0.645930648, -5.46522045e-08, 0.763396144, 5.9009384e-08, 1, 2.16614087e-08, -0.763396144, 3.10557695e-08, 0.645930648)
 	end)
 end
-coroutine.wrap(ZUQF_fake_script)()
-local function OQMK_fake_script() -- OpenBestEgg.Open 
+coroutine.wrap(XNNTYCL_fake_script)()
+local function IOKHHEP_fake_script() -- OpenBestEgg.Open 
 	local script = Instance.new('LocalScript', OpenBestEgg)
 
 	OpenBestEgg.MouseButton1Down:connect(function()	
@@ -891,16 +949,16 @@ local function OQMK_fake_script() -- OpenBestEgg.Open
 		game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
 	end)
 end
-coroutine.wrap(OQMK_fake_script)()
-local function GPYV_fake_script() -- OpenBestEgg.LocalScript 
+coroutine.wrap(IOKHHEP_fake_script)()
+local function TWBNBJW_fake_script() -- OpenBestEgg.LocalScript 
 	local script = Instance.new('LocalScript', OpenBestEgg)
 
 	OpenBestEgg.MouseButton1Down:connect(function()	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19886.123, -196.648026, 798.035217, 0.084190771, -4.15933954e-08, 0.996449649, -1.08398597e-08, 1, 4.2657458e-08, -0.996449649, -1.43927386e-08, 0.084190771)
 	end)
 end
-coroutine.wrap(GPYV_fake_script)()
-local function IYVGGP_fake_script() -- AutoClickOff.Off 
+coroutine.wrap(TWBNBJW_fake_script)()
+local function ILCJ_fake_script() -- AutoClickOff.Off 
 	local script = Instance.new('LocalScript', AutoClickOff)
 
 	AutoClickOff.MouseButton1Down:connect(function()
@@ -913,8 +971,8 @@ local function IYVGGP_fake_script() -- AutoClickOff.Off
 		end--]]
 	end)
 end
-coroutine.wrap(IYVGGP_fake_script)()
-local function DWLW_fake_script() -- Page.LocalScript 
+coroutine.wrap(ILCJ_fake_script)()
+local function KFRUGN_fake_script() -- Page.LocalScript 
 	local script = Instance.new('LocalScript', Page)
 
 	local function findPlayer(name)
@@ -948,8 +1006,8 @@ local function DWLW_fake_script() -- Page.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(DWLW_fake_script)()
-local function WWFKJC_fake_script() -- AutoClickOn.On 
+coroutine.wrap(KFRUGN_fake_script)()
+local function JAYT_fake_script() -- AutoClickOn.On 
 	local script = Instance.new('LocalScript', AutoClickOn)
 
 	AutoClickOn.MouseButton1Down:connect(function()
@@ -962,16 +1020,16 @@ local function WWFKJC_fake_script() -- AutoClickOn.On
 		end
 	end)
 end
-coroutine.wrap(WWFKJC_fake_script)()
-local function XKFRVX_fake_script() -- TpSpawn.Spawn 
+coroutine.wrap(JAYT_fake_script)()
+local function XPQT_fake_script() -- TpSpawn.Spawn 
 	local script = Instance.new('LocalScript', TpSpawn)
 
 	TpSpawn.MouseButton1Down:connect(function()	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1173.37964, -38.6989517, 577.089905, 0.998516858, -2.62784603e-08, -0.0544430353, 2.23005898e-08, 1, -7.36723464e-08, 0.0544430353, 7.23489748e-08, 0.998516858)
 	end)
 end
-coroutine.wrap(XKFRVX_fake_script)()
-local function ZOLP_fake_script() -- Page_2.LocalScript 
+coroutine.wrap(XPQT_fake_script)()
+local function MVCQTMK_fake_script() -- Page_2.LocalScript 
 	local script = Instance.new('LocalScript', Page_2)
 
 	local function findPlayer(name)
@@ -1005,8 +1063,8 @@ local function ZOLP_fake_script() -- Page_2.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(ZOLP_fake_script)()
-local function NRZOV_fake_script() -- Page_3.LocalScript 
+coroutine.wrap(MVCQTMK_fake_script)()
+local function DNTDJXM_fake_script() -- Page_3.LocalScript 
 	local script = Instance.new('LocalScript', Page_3)
 
 	local function findPlayer(name)
@@ -1040,8 +1098,8 @@ local function NRZOV_fake_script() -- Page_3.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(NRZOV_fake_script)()
-local function DKGXWI_fake_script() -- Page_4.LocalScript 
+coroutine.wrap(DNTDJXM_fake_script)()
+local function LBMD_fake_script() -- Page_4.LocalScript 
 	local script = Instance.new('LocalScript', Page_4)
 
 	local function findPlayer(name)
@@ -1075,8 +1133,8 @@ local function DKGXWI_fake_script() -- Page_4.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(DKGXWI_fake_script)()
-local function FVNPI_fake_script() -- Close.LocalScript 
+coroutine.wrap(LBMD_fake_script)()
+local function RVPHQGE_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1084,8 +1142,8 @@ local function FVNPI_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent.TextButton.Visible = true
 	end)
 end
-coroutine.wrap(FVNPI_fake_script)()
-local function PXIJ_fake_script() -- ScreenGui.Draggable 
+coroutine.wrap(RVPHQGE_fake_script)()
+local function ETQHUK_fake_script() -- ScreenGui.Draggable 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	frame = script.Parent.Main
@@ -1093,4 +1151,4 @@ local function PXIJ_fake_script() -- ScreenGui.Draggable
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(PXIJ_fake_script)()
+coroutine.wrap(ETQHUK_fake_script)()
