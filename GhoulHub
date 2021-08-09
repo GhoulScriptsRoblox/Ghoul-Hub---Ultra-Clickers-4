@@ -1,0 +1,1856 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local RoundedBG = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local Separator = Instance.new("TextButton")
+local RoundedBG_2 = Instance.new("UICorner")
+local Pages = Instance.new("Frame")
+local Page1 = Instance.new("Frame")
+local ButtonName = Instance.new("TextButton")
+local RoundedBG_3 = Instance.new("UICorner")
+local TpSecretIsland = Instance.new("TextButton")
+local RoundedBG_4 = Instance.new("UICorner")
+local ButtonName_2 = Instance.new("TextButton")
+local RoundedBG_5 = Instance.new("UICorner")
+local OpenBestEgg = Instance.new("TextButton")
+local RoundedBG_6 = Instance.new("UICorner")
+local ButtonName_3 = Instance.new("TextButton")
+local RoundedBG_7 = Instance.new("UICorner")
+local ButtonName_4 = Instance.new("TextButton")
+local RoundedBG_8 = Instance.new("UICorner")
+local ButtonName_5 = Instance.new("TextButton")
+local RoundedBG_9 = Instance.new("UICorner")
+local ButtonName_6 = Instance.new("TextButton")
+local RoundedBG_10 = Instance.new("UICorner")
+local AutoClickOff = Instance.new("TextButton")
+local RoundedBG_11 = Instance.new("UICorner")
+local Page = Instance.new("TextButton")
+local RoundedBG_12 = Instance.new("UICorner")
+local ButtonName_7 = Instance.new("TextButton")
+local RoundedBG_13 = Instance.new("UICorner")
+local AutoClickOn = Instance.new("TextButton")
+local RoundedBG_14 = Instance.new("UICorner")
+local TpSpawn = Instance.new("TextButton")
+local RoundedBG_15 = Instance.new("UICorner")
+local PageNumber = Instance.new("TextButton")
+local Page2 = Instance.new("Frame")
+local ButtonName_8 = Instance.new("TextButton")
+local RoundedBG_16 = Instance.new("Frame")
+local Vertical = Instance.new("Frame")
+local Horizon = Instance.new("Frame")
+local Corner = Instance.new("ImageLabel")
+local Corner_2 = Instance.new("ImageLabel")
+local Corner_3 = Instance.new("ImageLabel")
+local Corner_4 = Instance.new("ImageLabel")
+local ButtonName_9 = Instance.new("TextButton")
+local RoundedBG_17 = Instance.new("Frame")
+local Vertical_2 = Instance.new("Frame")
+local Horizon_2 = Instance.new("Frame")
+local Corner_5 = Instance.new("ImageLabel")
+local Corner_6 = Instance.new("ImageLabel")
+local Corner_7 = Instance.new("ImageLabel")
+local Corner_8 = Instance.new("ImageLabel")
+local ButtonName_10 = Instance.new("TextButton")
+local RoundedBG_18 = Instance.new("Frame")
+local Vertical_3 = Instance.new("Frame")
+local Horizon_3 = Instance.new("Frame")
+local Corner_9 = Instance.new("ImageLabel")
+local Corner_10 = Instance.new("ImageLabel")
+local Corner_11 = Instance.new("ImageLabel")
+local Corner_12 = Instance.new("ImageLabel")
+local ButtonName_11 = Instance.new("TextButton")
+local RoundedBG_19 = Instance.new("Frame")
+local Vertical_4 = Instance.new("Frame")
+local Horizon_4 = Instance.new("Frame")
+local Corner_13 = Instance.new("ImageLabel")
+local Corner_14 = Instance.new("ImageLabel")
+local Corner_15 = Instance.new("ImageLabel")
+local Corner_16 = Instance.new("ImageLabel")
+local ButtonName_12 = Instance.new("TextButton")
+local RoundedBG_20 = Instance.new("Frame")
+local Vertical_5 = Instance.new("Frame")
+local Horizon_5 = Instance.new("Frame")
+local Corner_17 = Instance.new("ImageLabel")
+local Corner_18 = Instance.new("ImageLabel")
+local Corner_19 = Instance.new("ImageLabel")
+local Corner_20 = Instance.new("ImageLabel")
+local ButtonName_13 = Instance.new("TextButton")
+local RoundedBG_21 = Instance.new("Frame")
+local Vertical_6 = Instance.new("Frame")
+local Horizon_6 = Instance.new("Frame")
+local Corner_21 = Instance.new("ImageLabel")
+local Corner_22 = Instance.new("ImageLabel")
+local Corner_23 = Instance.new("ImageLabel")
+local Corner_24 = Instance.new("ImageLabel")
+local ButtonName_14 = Instance.new("TextButton")
+local RoundedBG_22 = Instance.new("Frame")
+local Vertical_7 = Instance.new("Frame")
+local Horizon_7 = Instance.new("Frame")
+local Corner_25 = Instance.new("ImageLabel")
+local Corner_26 = Instance.new("ImageLabel")
+local Corner_27 = Instance.new("ImageLabel")
+local Corner_28 = Instance.new("ImageLabel")
+local ButtonName_15 = Instance.new("TextButton")
+local RoundedBG_23 = Instance.new("Frame")
+local Vertical_8 = Instance.new("Frame")
+local Horizon_8 = Instance.new("Frame")
+local Corner_29 = Instance.new("ImageLabel")
+local Corner_30 = Instance.new("ImageLabel")
+local Corner_31 = Instance.new("ImageLabel")
+local Corner_32 = Instance.new("ImageLabel")
+local ButtonName_16 = Instance.new("TextButton")
+local RoundedBG_24 = Instance.new("Frame")
+local Vertical_9 = Instance.new("Frame")
+local Horizon_9 = Instance.new("Frame")
+local Corner_33 = Instance.new("ImageLabel")
+local Corner_34 = Instance.new("ImageLabel")
+local Corner_35 = Instance.new("ImageLabel")
+local Corner_36 = Instance.new("ImageLabel")
+local ButtonName_17 = Instance.new("TextButton")
+local RoundedBG_25 = Instance.new("Frame")
+local Vertical_10 = Instance.new("Frame")
+local Horizon_10 = Instance.new("Frame")
+local Corner_37 = Instance.new("ImageLabel")
+local Corner_38 = Instance.new("ImageLabel")
+local Corner_39 = Instance.new("ImageLabel")
+local Corner_40 = Instance.new("ImageLabel")
+local ButtonName_18 = Instance.new("TextButton")
+local RoundedBG_26 = Instance.new("Frame")
+local Vertical_11 = Instance.new("Frame")
+local Horizon_11 = Instance.new("Frame")
+local Corner_41 = Instance.new("ImageLabel")
+local Corner_42 = Instance.new("ImageLabel")
+local Corner_43 = Instance.new("ImageLabel")
+local Corner_44 = Instance.new("ImageLabel")
+local ButtonName_19 = Instance.new("TextButton")
+local RoundedBG_27 = Instance.new("Frame")
+local Vertical_12 = Instance.new("Frame")
+local Horizon_12 = Instance.new("Frame")
+local Corner_45 = Instance.new("ImageLabel")
+local Corner_46 = Instance.new("ImageLabel")
+local Corner_47 = Instance.new("ImageLabel")
+local Corner_48 = Instance.new("ImageLabel")
+local PageNumber_2 = Instance.new("TextButton")
+local Page_2 = Instance.new("TextButton")
+local RoundedBG_28 = Instance.new("Frame")
+local Vertical_13 = Instance.new("Frame")
+local Horizon_13 = Instance.new("Frame")
+local Corner_49 = Instance.new("ImageLabel")
+local Corner_50 = Instance.new("ImageLabel")
+local Corner_51 = Instance.new("ImageLabel")
+local Corner_52 = Instance.new("ImageLabel")
+local Page_3 = Instance.new("TextButton")
+local RoundedBG_29 = Instance.new("Frame")
+local Vertical_14 = Instance.new("Frame")
+local Horizon_14 = Instance.new("Frame")
+local Corner_53 = Instance.new("ImageLabel")
+local Corner_54 = Instance.new("ImageLabel")
+local Corner_55 = Instance.new("ImageLabel")
+local Corner_56 = Instance.new("ImageLabel")
+local Close = Instance.new("TextButton")
+local RoundedBG_30 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Main.Position = UDim2.new(0.483796269, 0, 0.192125976, 0)
+Main.Size = UDim2.new(0, 550, 0, 310)
+
+RoundedBG.CornerRadius = UDim.new(0, 9)
+RoundedBG.Name = "RoundedBG"
+RoundedBG.Parent = Main
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Title.Position = UDim2.new(0.302727282, 0, -0.0180645362, 0)
+Title.Size = UDim2.new(0.391818166, 0, 0.130967781, 0)
+Title.ZIndex = 2
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Ghoul Hub - Ultra Clickers 4"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+Title.TextStrokeTransparency = 0.000
+Title.TextWrapped = true
+
+Version.Name = "Version"
+Version.Parent = Main
+Version.BackgroundColor3 = Color3.fromRGB(16, 148, 163)
+Version.BackgroundTransparency = 1.000
+Version.BorderColor3 = Color3.fromRGB(16, 148, 163)
+Version.Position = UDim2.new(0.319999993, 0, 0.0599999987, 0)
+Version.Size = UDim2.new(0.360000014, 0, 0.119999997, 0)
+Version.ZIndex = 2
+Version.Font = Enum.Font.SourceSansBold
+Version.Text = "By GhoulScripts"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 14.000
+Version.TextStrokeColor3 = Color3.fromRGB(61, 61, 61)
+Version.TextStrokeTransparency = 0.000
+
+Separator.Name = "Separator"
+Separator.Parent = Main
+Separator.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Separator.BorderSizePixel = 0
+Separator.Position = UDim2.new(0.00363636366, 10, 1.80279565, -280)
+Separator.Size = UDim2.new(0, 526, 0, 19)
+Separator.ZIndex = 7
+Separator.Font = Enum.Font.SourceSansBold
+Separator.Text = ""
+Separator.TextColor3 = Color3.fromRGB(61, 61, 61)
+Separator.TextSize = 18.000
+Separator.TextWrapped = true
+
+RoundedBG_2.CornerRadius = UDim.new(0, 9)
+RoundedBG_2.Name = "RoundedBG"
+RoundedBG_2.Parent = Separator
+
+Pages.Name = "Pages"
+Pages.Parent = Main
+Pages.Active = true
+Pages.BackgroundColor3 = Color3.fromRGB(255, 255, 235)
+Pages.BackgroundTransparency = 1.000
+Pages.BorderSizePixel = 0
+Pages.ClipsDescendants = true
+Pages.Position = UDim2.new(0, -2, 0, 2)
+Pages.Selectable = true
+Pages.Size = UDim2.new(1, 0, 1, 0)
+Pages.ZIndex = 2
+
+Page1.Name = "Page1"
+Page1.Parent = Pages
+Page1.Active = true
+Page1.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Page1.BackgroundTransparency = 1.000
+Page1.BorderSizePixel = 0
+Page1.Position = UDim2.new(0, 0, 0.300000012, 0)
+Page1.Size = UDim2.new(1, 0, 0.600000024, 0)
+
+ButtonName.Name = "ButtonName"
+ButtonName.Parent = Page1
+ButtonName.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName.BorderSizePixel = 0
+ButtonName.Position = UDim2.new(0.501999974, 10, 1.27499998, -280)
+ButtonName.Size = UDim2.new(0, 110, 0, 48)
+ButtonName.ZIndex = 7
+ButtonName.Font = Enum.Font.SourceSansBold
+ButtonName.Text = "Script here"
+ButtonName.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName.TextSize = 18.000
+ButtonName.TextWrapped = true
+
+RoundedBG_3.CornerRadius = UDim.new(0, 9)
+RoundedBG_3.Name = "RoundedBG"
+RoundedBG_3.Parent = ButtonName
+
+TpSecretIsland.Name = "TpSecretIsland"
+TpSecretIsland.Parent = Page1
+TpSecretIsland.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+TpSecretIsland.BorderSizePixel = 0
+TpSecretIsland.Position = UDim2.new(0.501999974, 10, 1.875, -280)
+TpSecretIsland.Size = UDim2.new(0, 110, 0, 48)
+TpSecretIsland.ZIndex = 7
+TpSecretIsland.Font = Enum.Font.SourceSansBold
+TpSecretIsland.Text = "Secret Island TP"
+TpSecretIsland.TextColor3 = Color3.fromRGB(61, 61, 61)
+TpSecretIsland.TextSize = 18.000
+TpSecretIsland.TextWrapped = true
+
+RoundedBG_4.CornerRadius = UDim.new(0, 9)
+RoundedBG_4.Name = "RoundedBG"
+RoundedBG_4.Parent = TpSecretIsland
+
+ButtonName_2.Name = "ButtonName"
+ButtonName_2.Parent = Page1
+ButtonName_2.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_2.BorderSizePixel = 0
+ButtonName_2.Position = UDim2.new(0.00400000019, 10, 1.57500005, -280)
+ButtonName_2.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_2.ZIndex = 7
+ButtonName_2.Font = Enum.Font.SourceSansBold
+ButtonName_2.Text = "Script here"
+ButtonName_2.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_2.TextSize = 18.000
+ButtonName_2.TextWrapped = true
+
+RoundedBG_5.CornerRadius = UDim.new(0, 9)
+RoundedBG_5.Name = "RoundedBG"
+RoundedBG_5.Parent = ButtonName_2
+
+OpenBestEgg.Name = "OpenBestEgg"
+OpenBestEgg.Parent = Page1
+OpenBestEgg.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+OpenBestEgg.BorderSizePixel = 0
+OpenBestEgg.Position = UDim2.new(0.75999999, 10, 1.875, -280)
+OpenBestEgg.Size = UDim2.new(0, 110, 0, 48)
+OpenBestEgg.ZIndex = 7
+OpenBestEgg.Font = Enum.Font.SourceSansBold
+OpenBestEgg.Text = "Open Best EGG"
+OpenBestEgg.TextColor3 = Color3.fromRGB(61, 61, 61)
+OpenBestEgg.TextSize = 18.000
+OpenBestEgg.TextWrapped = true
+
+RoundedBG_6.CornerRadius = UDim.new(0, 9)
+RoundedBG_6.Name = "RoundedBG"
+RoundedBG_6.Parent = OpenBestEgg
+
+ButtonName_3.Name = "ButtonName"
+ButtonName_3.Parent = Page1
+ButtonName_3.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_3.BorderSizePixel = 0
+ButtonName_3.Position = UDim2.new(0.75999999, 10, 1.57500005, -280)
+ButtonName_3.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_3.ZIndex = 7
+ButtonName_3.Font = Enum.Font.SourceSansBold
+ButtonName_3.Text = "Script here"
+ButtonName_3.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_3.TextSize = 18.000
+ButtonName_3.TextWrapped = true
+
+RoundedBG_7.CornerRadius = UDim.new(0, 9)
+RoundedBG_7.Name = "RoundedBG"
+RoundedBG_7.Parent = ButtonName_3
+
+ButtonName_4.Name = "ButtonName"
+ButtonName_4.Parent = Page1
+ButtonName_4.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_4.BorderSizePixel = 0
+ButtonName_4.Position = UDim2.new(0.75999999, 10, 1.27499998, -280)
+ButtonName_4.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_4.ZIndex = 7
+ButtonName_4.Font = Enum.Font.SourceSansBold
+ButtonName_4.Text = "Script here"
+ButtonName_4.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_4.TextSize = 18.000
+ButtonName_4.TextWrapped = true
+
+RoundedBG_8.CornerRadius = UDim.new(0, 9)
+RoundedBG_8.Name = "RoundedBG"
+RoundedBG_8.Parent = ButtonName_4
+
+ButtonName_5.Name = "ButtonName"
+ButtonName_5.Parent = Page1
+ButtonName_5.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_5.BorderSizePixel = 0
+ButtonName_5.Position = UDim2.new(0.254999995, 10, 1.57500005, -280)
+ButtonName_5.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_5.ZIndex = 7
+ButtonName_5.Font = Enum.Font.SourceSansBold
+ButtonName_5.Text = "Script here"
+ButtonName_5.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_5.TextSize = 18.000
+ButtonName_5.TextWrapped = true
+
+RoundedBG_9.CornerRadius = UDim.new(0, 9)
+RoundedBG_9.Name = "RoundedBG"
+RoundedBG_9.Parent = ButtonName_5
+
+ButtonName_6.Name = "ButtonName"
+ButtonName_6.Parent = Page1
+ButtonName_6.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_6.BorderSizePixel = 0
+ButtonName_6.Position = UDim2.new(0.501999974, 10, 1.57500005, -280)
+ButtonName_6.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_6.ZIndex = 7
+ButtonName_6.Font = Enum.Font.SourceSansBold
+ButtonName_6.Text = "Script here"
+ButtonName_6.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_6.TextSize = 18.000
+ButtonName_6.TextWrapped = true
+
+RoundedBG_10.CornerRadius = UDim.new(0, 9)
+RoundedBG_10.Name = "RoundedBG"
+RoundedBG_10.Parent = ButtonName_6
+
+AutoClickOff.Name = "AutoClickOff"
+AutoClickOff.Parent = Page1
+AutoClickOff.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+AutoClickOff.BorderSizePixel = 0
+AutoClickOff.Position = UDim2.new(0.254999995, 10, 1.27499998, -280)
+AutoClickOff.Size = UDim2.new(0, 110, 0, 48)
+AutoClickOff.ZIndex = 7
+AutoClickOff.Font = Enum.Font.SourceSansBold
+AutoClickOff.Text = "Auto Clicker OFF"
+AutoClickOff.TextColor3 = Color3.fromRGB(61, 61, 61)
+AutoClickOff.TextSize = 18.000
+AutoClickOff.TextWrapped = true
+
+RoundedBG_11.CornerRadius = UDim.new(0, 9)
+RoundedBG_11.Name = "RoundedBG"
+RoundedBG_11.Parent = AutoClickOff
+
+Page.Name = "Page>"
+Page.Parent = Page1
+Page.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Page.BorderSizePixel = 0
+Page.Position = UDim2.new(0.785999954, 10, 1.04301071, -280)
+Page.Size = UDim2.new(0, 44, 0, 32)
+Page.ZIndex = 7
+Page.Font = Enum.Font.SourceSansBold
+Page.Text = ">"
+Page.TextColor3 = Color3.fromRGB(61, 61, 61)
+Page.TextSize = 22.000
+Page.TextWrapped = true
+
+RoundedBG_12.CornerRadius = UDim.new(0, 9)
+RoundedBG_12.Name = "RoundedBG"
+RoundedBG_12.Parent = Page
+
+ButtonName_7.Name = "ButtonName"
+ButtonName_7.Parent = Page1
+ButtonName_7.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+ButtonName_7.BorderSizePixel = 0
+ButtonName_7.Position = UDim2.new(0.00400000019, 10, 1.875, -280)
+ButtonName_7.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_7.ZIndex = 7
+ButtonName_7.Font = Enum.Font.SourceSansBold
+ButtonName_7.Text = "Script here"
+ButtonName_7.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_7.TextSize = 18.000
+ButtonName_7.TextWrapped = true
+
+RoundedBG_13.CornerRadius = UDim.new(0, 9)
+RoundedBG_13.Name = "RoundedBG"
+RoundedBG_13.Parent = ButtonName_7
+
+AutoClickOn.Name = "AutoClickOn"
+AutoClickOn.Parent = Page1
+AutoClickOn.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+AutoClickOn.BorderSizePixel = 0
+AutoClickOn.Position = UDim2.new(0.00400000019, 10, 1.27499998, -280)
+AutoClickOn.Size = UDim2.new(0, 110, 0, 48)
+AutoClickOn.ZIndex = 7
+AutoClickOn.Font = Enum.Font.SourceSansBold
+AutoClickOn.Text = "Auto Clicker ON"
+AutoClickOn.TextColor3 = Color3.fromRGB(61, 61, 61)
+AutoClickOn.TextSize = 18.000
+AutoClickOn.TextWrapped = true
+
+RoundedBG_14.CornerRadius = UDim.new(0, 9)
+RoundedBG_14.Name = "RoundedBG"
+RoundedBG_14.Parent = AutoClickOn
+
+TpSpawn.Name = "TpSpawn"
+TpSpawn.Parent = Page1
+TpSpawn.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+TpSpawn.BorderSizePixel = 0
+TpSpawn.Position = UDim2.new(0.254999995, 10, 1.875, -280)
+TpSpawn.Size = UDim2.new(0, 110, 0, 48)
+TpSpawn.ZIndex = 7
+TpSpawn.Font = Enum.Font.SourceSansBold
+TpSpawn.Text = "Spawn TP"
+TpSpawn.TextColor3 = Color3.fromRGB(61, 61, 61)
+TpSpawn.TextSize = 18.000
+TpSpawn.TextWrapped = true
+
+RoundedBG_15.CornerRadius = UDim.new(0, 9)
+RoundedBG_15.Name = "RoundedBG"
+RoundedBG_15.Parent = TpSpawn
+
+PageNumber.Name = "Page Number"
+PageNumber.Parent = Page1
+PageNumber.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageNumber.BackgroundTransparency = 1.000
+PageNumber.Position = UDim2.new(0.428636372, 10, 2.45220423, -280)
+PageNumber.Size = UDim2.new(0, 60, 0, 32)
+PageNumber.ZIndex = 8
+PageNumber.Font = Enum.Font.SourceSansBold
+PageNumber.Text = "Page 1"
+PageNumber.TextColor3 = Color3.fromRGB(61, 61, 61)
+PageNumber.TextSize = 22.000
+PageNumber.TextWrapped = true
+
+Page2.Name = "Page2"
+Page2.Parent = Pages
+Page2.Active = true
+Page2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Page2.BackgroundTransparency = 1.000
+Page2.BorderSizePixel = 0
+Page2.Position = UDim2.new(0, 0, 0.300000012, 0)
+Page2.Size = UDim2.new(1, 0, 0.600000024, 0)
+Page2.Visible = false
+
+ButtonName_8.Name = "ButtonName"
+ButtonName_8.Parent = Page2
+ButtonName_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_8.BackgroundTransparency = 1.000
+ButtonName_8.Position = UDim2.new(0.501999974, 10, 1.27499998, -280)
+ButtonName_8.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_8.ZIndex = 7
+ButtonName_8.Font = Enum.Font.SourceSansBold
+ButtonName_8.Text = "Script here"
+ButtonName_8.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_8.TextSize = 18.000
+ButtonName_8.TextWrapped = true
+
+RoundedBG_16.Name = "RoundedBG"
+RoundedBG_16.Parent = ButtonName_8
+RoundedBG_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_16.BackgroundTransparency = 1.000
+RoundedBG_16.BorderSizePixel = 0
+RoundedBG_16.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical.Name = "Vertical"
+Vertical.Parent = RoundedBG_16
+Vertical.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical.BorderSizePixel = 0
+Vertical.Position = UDim2.new(0, 10, 0, 0)
+Vertical.Size = UDim2.new(1, -20, 1, 0)
+Vertical.ZIndex = 2
+
+Horizon.Name = "Horizon"
+Horizon.Parent = RoundedBG_16
+Horizon.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon.BorderSizePixel = 0
+Horizon.Position = UDim2.new(0, 0, 0, 10)
+Horizon.Size = UDim2.new(1, 0, 1, -20)
+Horizon.ZIndex = 2
+
+Corner.Name = "Corner"
+Corner.Parent = RoundedBG_16
+Corner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner.BackgroundTransparency = 1.000
+Corner.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Corner.BorderSizePixel = 0
+Corner.Size = UDim2.new(0, 10, 0, 10)
+Corner.ZIndex = 2
+Corner.Image = "rbxassetid://257730458"
+Corner.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner.ImageRectSize = Vector2.new(384, 384)
+
+Corner_2.Name = "Corner"
+Corner_2.Parent = RoundedBG_16
+Corner_2.BackgroundColor3 = Color3.fromRGB(155, 123, 196)
+Corner_2.BackgroundTransparency = 1.000
+Corner_2.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Corner_2.BorderSizePixel = 0
+Corner_2.Position = UDim2.new(1, -10, 0, 0)
+Corner_2.Size = UDim2.new(0, 10, 0, 10)
+Corner_2.ZIndex = 2
+Corner_2.Image = "rbxassetid://257730458"
+Corner_2.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_2.ImageRectOffset = Vector2.new(384, 0)
+Corner_2.ImageRectSize = Vector2.new(384, 384)
+
+Corner_3.Name = "Corner"
+Corner_3.Parent = RoundedBG_16
+Corner_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_3.BackgroundTransparency = 1.000
+Corner_3.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Corner_3.BorderSizePixel = 0
+Corner_3.Position = UDim2.new(0, 0, 1, -10)
+Corner_3.Size = UDim2.new(0, 10, 0, 10)
+Corner_3.ZIndex = 2
+Corner_3.Image = "rbxassetid://257730458"
+Corner_3.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_3.ImageRectOffset = Vector2.new(0, 384)
+Corner_3.ImageRectSize = Vector2.new(384, 384)
+
+Corner_4.Name = "Corner"
+Corner_4.Parent = RoundedBG_16
+Corner_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_4.BackgroundTransparency = 1.000
+Corner_4.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Corner_4.BorderSizePixel = 0
+Corner_4.Position = UDim2.new(1, -10, 1, -10)
+Corner_4.Size = UDim2.new(0, 10, 0, 10)
+Corner_4.ZIndex = 2
+Corner_4.Image = "rbxassetid://257730458"
+Corner_4.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_4.ImageRectOffset = Vector2.new(384, 384)
+Corner_4.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_9.Name = "ButtonName"
+ButtonName_9.Parent = Page2
+ButtonName_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_9.BackgroundTransparency = 1.000
+ButtonName_9.Position = UDim2.new(0.75999999, 10, 1.27499998, -280)
+ButtonName_9.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_9.ZIndex = 7
+ButtonName_9.Font = Enum.Font.SourceSansBold
+ButtonName_9.Text = "Script here"
+ButtonName_9.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_9.TextSize = 18.000
+ButtonName_9.TextWrapped = true
+
+RoundedBG_17.Name = "RoundedBG"
+RoundedBG_17.Parent = ButtonName_9
+RoundedBG_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_17.BackgroundTransparency = 1.000
+RoundedBG_17.BorderSizePixel = 0
+RoundedBG_17.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_2.Name = "Vertical"
+Vertical_2.Parent = RoundedBG_17
+Vertical_2.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_2.BorderSizePixel = 0
+Vertical_2.Position = UDim2.new(0, 10, 0, 0)
+Vertical_2.Size = UDim2.new(1, -20, 1, 0)
+Vertical_2.ZIndex = 3
+
+Horizon_2.Name = "Horizon"
+Horizon_2.Parent = RoundedBG_17
+Horizon_2.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_2.BorderSizePixel = 0
+Horizon_2.Position = UDim2.new(0, 0, 0, 10)
+Horizon_2.Size = UDim2.new(1, 0, 1, -20)
+Horizon_2.ZIndex = 2
+
+Corner_5.Name = "Corner"
+Corner_5.Parent = RoundedBG_17
+Corner_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_5.BackgroundTransparency = 1.000
+Corner_5.BorderSizePixel = 0
+Corner_5.Size = UDim2.new(0, 10, 0, 10)
+Corner_5.Image = "rbxassetid://257730458"
+Corner_5.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_5.ImageRectSize = Vector2.new(384, 384)
+
+Corner_6.Name = "Corner"
+Corner_6.Parent = RoundedBG_17
+Corner_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_6.BackgroundTransparency = 1.000
+Corner_6.BorderSizePixel = 0
+Corner_6.Position = UDim2.new(1, -10, 0, 0)
+Corner_6.Size = UDim2.new(0, 10, 0, 10)
+Corner_6.Image = "rbxassetid://257730458"
+Corner_6.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_6.ImageRectOffset = Vector2.new(384, 0)
+Corner_6.ImageRectSize = Vector2.new(384, 384)
+
+Corner_7.Name = "Corner"
+Corner_7.Parent = RoundedBG_17
+Corner_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_7.BackgroundTransparency = 1.000
+Corner_7.BorderSizePixel = 0
+Corner_7.Position = UDim2.new(0, 0, 1, -10)
+Corner_7.Size = UDim2.new(0, 10, 0, 10)
+Corner_7.Image = "rbxassetid://257730458"
+Corner_7.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_7.ImageRectOffset = Vector2.new(0, 384)
+Corner_7.ImageRectSize = Vector2.new(384, 384)
+
+Corner_8.Name = "Corner"
+Corner_8.Parent = RoundedBG_17
+Corner_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_8.BackgroundTransparency = 1.000
+Corner_8.BorderSizePixel = 0
+Corner_8.Position = UDim2.new(1, -10, 1, -10)
+Corner_8.Size = UDim2.new(0, 10, 0, 10)
+Corner_8.Image = "rbxassetid://257730458"
+Corner_8.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_8.ImageRectOffset = Vector2.new(384, 384)
+Corner_8.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_10.Name = "ButtonName"
+ButtonName_10.Parent = Page2
+ButtonName_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_10.BackgroundTransparency = 1.000
+ButtonName_10.Position = UDim2.new(0.501999974, 10, 1.875, -280)
+ButtonName_10.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_10.ZIndex = 7
+ButtonName_10.Font = Enum.Font.SourceSansBold
+ButtonName_10.Text = "Script here"
+ButtonName_10.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_10.TextSize = 18.000
+ButtonName_10.TextWrapped = true
+
+RoundedBG_18.Name = "RoundedBG"
+RoundedBG_18.Parent = ButtonName_10
+RoundedBG_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_18.BackgroundTransparency = 1.000
+RoundedBG_18.BorderSizePixel = 0
+RoundedBG_18.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_3.Name = "Vertical"
+Vertical_3.Parent = RoundedBG_18
+Vertical_3.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_3.BorderSizePixel = 0
+Vertical_3.Position = UDim2.new(0, 10, 0, 0)
+Vertical_3.Size = UDim2.new(1, -20, 1, 0)
+Vertical_3.ZIndex = 3
+
+Horizon_3.Name = "Horizon"
+Horizon_3.Parent = RoundedBG_18
+Horizon_3.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_3.BorderSizePixel = 0
+Horizon_3.Position = UDim2.new(0, 0, 0, 10)
+Horizon_3.Size = UDim2.new(1, 0, 1, -20)
+Horizon_3.ZIndex = 2
+
+Corner_9.Name = "Corner"
+Corner_9.Parent = RoundedBG_18
+Corner_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_9.BackgroundTransparency = 1.000
+Corner_9.BorderSizePixel = 0
+Corner_9.Size = UDim2.new(0, 10, 0, 10)
+Corner_9.Image = "rbxassetid://257730458"
+Corner_9.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_9.ImageRectSize = Vector2.new(384, 384)
+
+Corner_10.Name = "Corner"
+Corner_10.Parent = RoundedBG_18
+Corner_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_10.BackgroundTransparency = 1.000
+Corner_10.BorderSizePixel = 0
+Corner_10.Position = UDim2.new(1, -10, 0, 0)
+Corner_10.Size = UDim2.new(0, 10, 0, 10)
+Corner_10.Image = "rbxassetid://257730458"
+Corner_10.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_10.ImageRectOffset = Vector2.new(384, 0)
+Corner_10.ImageRectSize = Vector2.new(384, 384)
+
+Corner_11.Name = "Corner"
+Corner_11.Parent = RoundedBG_18
+Corner_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_11.BackgroundTransparency = 1.000
+Corner_11.BorderSizePixel = 0
+Corner_11.Position = UDim2.new(0, 0, 1, -10)
+Corner_11.Size = UDim2.new(0, 10, 0, 10)
+Corner_11.Image = "rbxassetid://257730458"
+Corner_11.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_11.ImageRectOffset = Vector2.new(0, 384)
+Corner_11.ImageRectSize = Vector2.new(384, 384)
+
+Corner_12.Name = "Corner"
+Corner_12.Parent = RoundedBG_18
+Corner_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_12.BackgroundTransparency = 1.000
+Corner_12.BorderSizePixel = 0
+Corner_12.Position = UDim2.new(1, -10, 1, -10)
+Corner_12.Size = UDim2.new(0, 10, 0, 10)
+Corner_12.Image = "rbxassetid://257730458"
+Corner_12.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_12.ImageRectOffset = Vector2.new(384, 384)
+Corner_12.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_11.Name = "ButtonName"
+ButtonName_11.Parent = Page2
+ButtonName_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_11.BackgroundTransparency = 1.000
+ButtonName_11.Position = UDim2.new(0.00400000019, 10, 1.875, -280)
+ButtonName_11.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_11.ZIndex = 7
+ButtonName_11.Font = Enum.Font.SourceSansBold
+ButtonName_11.Text = "Script here"
+ButtonName_11.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_11.TextSize = 18.000
+ButtonName_11.TextWrapped = true
+
+RoundedBG_19.Name = "RoundedBG"
+RoundedBG_19.Parent = ButtonName_11
+RoundedBG_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_19.BackgroundTransparency = 1.000
+RoundedBG_19.BorderSizePixel = 0
+RoundedBG_19.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_4.Name = "Vertical"
+Vertical_4.Parent = RoundedBG_19
+Vertical_4.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_4.BorderSizePixel = 0
+Vertical_4.Position = UDim2.new(0, 10, 0, 0)
+Vertical_4.Size = UDim2.new(1, -20, 1, 0)
+Vertical_4.ZIndex = 3
+
+Horizon_4.Name = "Horizon"
+Horizon_4.Parent = RoundedBG_19
+Horizon_4.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_4.BorderSizePixel = 0
+Horizon_4.Position = UDim2.new(0, 0, 0, 10)
+Horizon_4.Size = UDim2.new(1, 0, 1, -20)
+Horizon_4.ZIndex = 2
+
+Corner_13.Name = "Corner"
+Corner_13.Parent = RoundedBG_19
+Corner_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_13.BackgroundTransparency = 1.000
+Corner_13.BorderSizePixel = 0
+Corner_13.Size = UDim2.new(0, 10, 0, 10)
+Corner_13.Image = "rbxassetid://257730458"
+Corner_13.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_13.ImageRectSize = Vector2.new(384, 384)
+
+Corner_14.Name = "Corner"
+Corner_14.Parent = RoundedBG_19
+Corner_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_14.BackgroundTransparency = 1.000
+Corner_14.BorderSizePixel = 0
+Corner_14.Position = UDim2.new(1, -10, 0, 0)
+Corner_14.Size = UDim2.new(0, 10, 0, 10)
+Corner_14.Image = "rbxassetid://257730458"
+Corner_14.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_14.ImageRectOffset = Vector2.new(384, 0)
+Corner_14.ImageRectSize = Vector2.new(384, 384)
+
+Corner_15.Name = "Corner"
+Corner_15.Parent = RoundedBG_19
+Corner_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_15.BackgroundTransparency = 1.000
+Corner_15.BorderSizePixel = 0
+Corner_15.Position = UDim2.new(0, 0, 1, -10)
+Corner_15.Size = UDim2.new(0, 10, 0, 10)
+Corner_15.Image = "rbxassetid://257730458"
+Corner_15.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_15.ImageRectOffset = Vector2.new(0, 384)
+Corner_15.ImageRectSize = Vector2.new(384, 384)
+
+Corner_16.Name = "Corner"
+Corner_16.Parent = RoundedBG_19
+Corner_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_16.BackgroundTransparency = 1.000
+Corner_16.BorderSizePixel = 0
+Corner_16.Position = UDim2.new(1, -10, 1, -10)
+Corner_16.Size = UDim2.new(0, 10, 0, 10)
+Corner_16.Image = "rbxassetid://257730458"
+Corner_16.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_16.ImageRectOffset = Vector2.new(384, 384)
+Corner_16.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_12.Name = "ButtonName"
+ButtonName_12.Parent = Page2
+ButtonName_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_12.BackgroundTransparency = 1.000
+ButtonName_12.Position = UDim2.new(0.75999999, 10, 1.875, -280)
+ButtonName_12.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_12.ZIndex = 7
+ButtonName_12.Font = Enum.Font.SourceSansBold
+ButtonName_12.Text = "Script here"
+ButtonName_12.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_12.TextSize = 18.000
+ButtonName_12.TextWrapped = true
+
+RoundedBG_20.Name = "RoundedBG"
+RoundedBG_20.Parent = ButtonName_12
+RoundedBG_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_20.BackgroundTransparency = 1.000
+RoundedBG_20.BorderSizePixel = 0
+RoundedBG_20.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_5.Name = "Vertical"
+Vertical_5.Parent = RoundedBG_20
+Vertical_5.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_5.BorderSizePixel = 0
+Vertical_5.Position = UDim2.new(0, 10, 0, 0)
+Vertical_5.Size = UDim2.new(1, -20, 1, 0)
+Vertical_5.ZIndex = 3
+
+Horizon_5.Name = "Horizon"
+Horizon_5.Parent = RoundedBG_20
+Horizon_5.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_5.BorderSizePixel = 0
+Horizon_5.Position = UDim2.new(0, 0, 0, 10)
+Horizon_5.Size = UDim2.new(1, 0, 1, -20)
+Horizon_5.ZIndex = 2
+
+Corner_17.Name = "Corner"
+Corner_17.Parent = RoundedBG_20
+Corner_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_17.BackgroundTransparency = 1.000
+Corner_17.BorderSizePixel = 0
+Corner_17.Size = UDim2.new(0, 10, 0, 10)
+Corner_17.Image = "rbxassetid://257730458"
+Corner_17.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_17.ImageRectSize = Vector2.new(384, 384)
+
+Corner_18.Name = "Corner"
+Corner_18.Parent = RoundedBG_20
+Corner_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_18.BackgroundTransparency = 1.000
+Corner_18.BorderSizePixel = 0
+Corner_18.Position = UDim2.new(1, -10, 0, 0)
+Corner_18.Size = UDim2.new(0, 10, 0, 10)
+Corner_18.Image = "rbxassetid://257730458"
+Corner_18.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_18.ImageRectOffset = Vector2.new(384, 0)
+Corner_18.ImageRectSize = Vector2.new(384, 384)
+
+Corner_19.Name = "Corner"
+Corner_19.Parent = RoundedBG_20
+Corner_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_19.BackgroundTransparency = 1.000
+Corner_19.BorderSizePixel = 0
+Corner_19.Position = UDim2.new(0, 0, 1, -10)
+Corner_19.Size = UDim2.new(0, 10, 0, 10)
+Corner_19.Image = "rbxassetid://257730458"
+Corner_19.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_19.ImageRectOffset = Vector2.new(0, 384)
+Corner_19.ImageRectSize = Vector2.new(384, 384)
+
+Corner_20.Name = "Corner"
+Corner_20.Parent = RoundedBG_20
+Corner_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_20.BackgroundTransparency = 1.000
+Corner_20.BorderSizePixel = 0
+Corner_20.Position = UDim2.new(1, -10, 1, -10)
+Corner_20.Size = UDim2.new(0, 10, 0, 10)
+Corner_20.Image = "rbxassetid://257730458"
+Corner_20.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_20.ImageRectOffset = Vector2.new(384, 384)
+Corner_20.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_13.Name = "ButtonName"
+ButtonName_13.Parent = Page2
+ButtonName_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_13.BackgroundTransparency = 1.000
+ButtonName_13.Position = UDim2.new(0.00400000019, 10, 1.27499998, -280)
+ButtonName_13.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_13.ZIndex = 7
+ButtonName_13.Font = Enum.Font.SourceSansBold
+ButtonName_13.Text = "Script here"
+ButtonName_13.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_13.TextSize = 18.000
+ButtonName_13.TextWrapped = true
+
+RoundedBG_21.Name = "RoundedBG"
+RoundedBG_21.Parent = ButtonName_13
+RoundedBG_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_21.BackgroundTransparency = 1.000
+RoundedBG_21.BorderSizePixel = 0
+RoundedBG_21.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_6.Name = "Vertical"
+Vertical_6.Parent = RoundedBG_21
+Vertical_6.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_6.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Vertical_6.BorderSizePixel = 0
+Vertical_6.Position = UDim2.new(0, 10, 0, 0)
+Vertical_6.Size = UDim2.new(1, -20, 1, 0)
+Vertical_6.ZIndex = 3
+
+Horizon_6.Name = "Horizon"
+Horizon_6.Parent = RoundedBG_21
+Horizon_6.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_6.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Horizon_6.BorderSizePixel = 0
+Horizon_6.Position = UDim2.new(0, 0, 0, 10)
+Horizon_6.Size = UDim2.new(1, 0, 1, -20)
+Horizon_6.ZIndex = 2
+
+Corner_21.Name = "Corner"
+Corner_21.Parent = RoundedBG_21
+Corner_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_21.BackgroundTransparency = 1.000
+Corner_21.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Corner_21.BorderSizePixel = 0
+Corner_21.Size = UDim2.new(0, 10, 0, 10)
+Corner_21.Image = "rbxassetid://257730458"
+Corner_21.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_21.ImageRectSize = Vector2.new(384, 384)
+
+Corner_22.Name = "Corner"
+Corner_22.Parent = RoundedBG_21
+Corner_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_22.BackgroundTransparency = 1.000
+Corner_22.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Corner_22.BorderSizePixel = 0
+Corner_22.Position = UDim2.new(1, -10, 0, 0)
+Corner_22.Size = UDim2.new(0, 10, 0, 10)
+Corner_22.Image = "rbxassetid://257730458"
+Corner_22.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_22.ImageRectOffset = Vector2.new(384, 0)
+Corner_22.ImageRectSize = Vector2.new(384, 384)
+
+Corner_23.Name = "Corner"
+Corner_23.Parent = RoundedBG_21
+Corner_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_23.BackgroundTransparency = 1.000
+Corner_23.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Corner_23.BorderSizePixel = 0
+Corner_23.Position = UDim2.new(0, 0, 1, -10)
+Corner_23.Size = UDim2.new(0, 10, 0, 10)
+Corner_23.Image = "rbxassetid://257730458"
+Corner_23.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_23.ImageRectOffset = Vector2.new(0, 384)
+Corner_23.ImageRectSize = Vector2.new(384, 384)
+
+Corner_24.Name = "Corner"
+Corner_24.Parent = RoundedBG_21
+Corner_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_24.BackgroundTransparency = 1.000
+Corner_24.BorderColor3 = Color3.fromRGB(155, 123, 196)
+Corner_24.BorderSizePixel = 0
+Corner_24.Position = UDim2.new(1, -10, 1, -10)
+Corner_24.Size = UDim2.new(0, 10, 0, 10)
+Corner_24.Image = "rbxassetid://257730458"
+Corner_24.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_24.ImageRectOffset = Vector2.new(384, 384)
+Corner_24.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_14.Name = "ButtonName"
+ButtonName_14.Parent = Page2
+ButtonName_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_14.BackgroundTransparency = 1.000
+ButtonName_14.Position = UDim2.new(0.501999974, 10, 1.57500005, -280)
+ButtonName_14.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_14.ZIndex = 7
+ButtonName_14.Font = Enum.Font.SourceSansBold
+ButtonName_14.Text = "Script here"
+ButtonName_14.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_14.TextSize = 18.000
+ButtonName_14.TextWrapped = true
+
+RoundedBG_22.Name = "RoundedBG"
+RoundedBG_22.Parent = ButtonName_14
+RoundedBG_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_22.BackgroundTransparency = 1.000
+RoundedBG_22.BorderSizePixel = 0
+RoundedBG_22.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_7.Name = "Vertical"
+Vertical_7.Parent = RoundedBG_22
+Vertical_7.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_7.BorderSizePixel = 0
+Vertical_7.Position = UDim2.new(0, 10, 0, 0)
+Vertical_7.Size = UDim2.new(1, -20, 1, 0)
+Vertical_7.ZIndex = 3
+
+Horizon_7.Name = "Horizon"
+Horizon_7.Parent = RoundedBG_22
+Horizon_7.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_7.BorderSizePixel = 0
+Horizon_7.Position = UDim2.new(0, 0, 0, 10)
+Horizon_7.Size = UDim2.new(1, 0, 1, -20)
+Horizon_7.ZIndex = 2
+
+Corner_25.Name = "Corner"
+Corner_25.Parent = RoundedBG_22
+Corner_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_25.BackgroundTransparency = 1.000
+Corner_25.BorderSizePixel = 0
+Corner_25.Size = UDim2.new(0, 10, 0, 10)
+Corner_25.Image = "rbxassetid://257730458"
+Corner_25.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_25.ImageRectSize = Vector2.new(384, 384)
+
+Corner_26.Name = "Corner"
+Corner_26.Parent = RoundedBG_22
+Corner_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_26.BackgroundTransparency = 1.000
+Corner_26.BorderSizePixel = 0
+Corner_26.Position = UDim2.new(1, -10, 0, 0)
+Corner_26.Size = UDim2.new(0, 10, 0, 10)
+Corner_26.Image = "rbxassetid://257730458"
+Corner_26.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_26.ImageRectOffset = Vector2.new(384, 0)
+Corner_26.ImageRectSize = Vector2.new(384, 384)
+
+Corner_27.Name = "Corner"
+Corner_27.Parent = RoundedBG_22
+Corner_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_27.BackgroundTransparency = 1.000
+Corner_27.BorderSizePixel = 0
+Corner_27.Position = UDim2.new(0, 0, 1, -10)
+Corner_27.Size = UDim2.new(0, 10, 0, 10)
+Corner_27.Image = "rbxassetid://257730458"
+Corner_27.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_27.ImageRectOffset = Vector2.new(0, 384)
+Corner_27.ImageRectSize = Vector2.new(384, 384)
+
+Corner_28.Name = "Corner"
+Corner_28.Parent = RoundedBG_22
+Corner_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_28.BackgroundTransparency = 1.000
+Corner_28.BorderSizePixel = 0
+Corner_28.Position = UDim2.new(1, -10, 1, -10)
+Corner_28.Size = UDim2.new(0, 10, 0, 10)
+Corner_28.Image = "rbxassetid://257730458"
+Corner_28.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_28.ImageRectOffset = Vector2.new(384, 384)
+Corner_28.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_15.Name = "ButtonName"
+ButtonName_15.Parent = Page2
+ButtonName_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_15.BackgroundTransparency = 1.000
+ButtonName_15.Position = UDim2.new(0.00400000019, 10, 1.57500005, -280)
+ButtonName_15.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_15.ZIndex = 7
+ButtonName_15.Font = Enum.Font.SourceSansBold
+ButtonName_15.Text = "Script here"
+ButtonName_15.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_15.TextSize = 18.000
+ButtonName_15.TextWrapped = true
+
+RoundedBG_23.Name = "RoundedBG"
+RoundedBG_23.Parent = ButtonName_15
+RoundedBG_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_23.BackgroundTransparency = 1.000
+RoundedBG_23.BorderSizePixel = 0
+RoundedBG_23.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_8.Name = "Vertical"
+Vertical_8.Parent = RoundedBG_23
+Vertical_8.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_8.BorderSizePixel = 0
+Vertical_8.Position = UDim2.new(0, 10, 0, 0)
+Vertical_8.Size = UDim2.new(1, -20, 1, 0)
+Vertical_8.ZIndex = 3
+
+Horizon_8.Name = "Horizon"
+Horizon_8.Parent = RoundedBG_23
+Horizon_8.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_8.BorderSizePixel = 0
+Horizon_8.Position = UDim2.new(0, 0, 0, 10)
+Horizon_8.Size = UDim2.new(1, 0, 1, -20)
+Horizon_8.ZIndex = 2
+
+Corner_29.Name = "Corner"
+Corner_29.Parent = RoundedBG_23
+Corner_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_29.BackgroundTransparency = 1.000
+Corner_29.BorderSizePixel = 0
+Corner_29.Size = UDim2.new(0, 10, 0, 10)
+Corner_29.Image = "rbxassetid://257730458"
+Corner_29.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_29.ImageRectSize = Vector2.new(384, 384)
+
+Corner_30.Name = "Corner"
+Corner_30.Parent = RoundedBG_23
+Corner_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_30.BackgroundTransparency = 1.000
+Corner_30.BorderSizePixel = 0
+Corner_30.Position = UDim2.new(1, -10, 0, 0)
+Corner_30.Size = UDim2.new(0, 10, 0, 10)
+Corner_30.Image = "rbxassetid://257730458"
+Corner_30.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_30.ImageRectOffset = Vector2.new(384, 0)
+Corner_30.ImageRectSize = Vector2.new(384, 384)
+
+Corner_31.Name = "Corner"
+Corner_31.Parent = RoundedBG_23
+Corner_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_31.BackgroundTransparency = 1.000
+Corner_31.BorderSizePixel = 0
+Corner_31.Position = UDim2.new(0, 0, 1, -10)
+Corner_31.Size = UDim2.new(0, 10, 0, 10)
+Corner_31.Image = "rbxassetid://257730458"
+Corner_31.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_31.ImageRectOffset = Vector2.new(0, 384)
+Corner_31.ImageRectSize = Vector2.new(384, 384)
+
+Corner_32.Name = "Corner"
+Corner_32.Parent = RoundedBG_23
+Corner_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_32.BackgroundTransparency = 1.000
+Corner_32.BorderSizePixel = 0
+Corner_32.Position = UDim2.new(1, -10, 1, -10)
+Corner_32.Size = UDim2.new(0, 10, 0, 10)
+Corner_32.Image = "rbxassetid://257730458"
+Corner_32.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_32.ImageRectOffset = Vector2.new(384, 384)
+Corner_32.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_16.Name = "ButtonName"
+ButtonName_16.Parent = Page2
+ButtonName_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_16.BackgroundTransparency = 1.000
+ButtonName_16.Position = UDim2.new(0.75999999, 10, 1.57500005, -280)
+ButtonName_16.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_16.ZIndex = 7
+ButtonName_16.Font = Enum.Font.SourceSansBold
+ButtonName_16.Text = "Script here"
+ButtonName_16.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_16.TextSize = 18.000
+ButtonName_16.TextWrapped = true
+
+RoundedBG_24.Name = "RoundedBG"
+RoundedBG_24.Parent = ButtonName_16
+RoundedBG_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_24.BackgroundTransparency = 1.000
+RoundedBG_24.BorderSizePixel = 0
+RoundedBG_24.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_9.Name = "Vertical"
+Vertical_9.Parent = RoundedBG_24
+Vertical_9.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_9.BorderSizePixel = 0
+Vertical_9.Position = UDim2.new(0, 10, 0, 0)
+Vertical_9.Size = UDim2.new(1, -20, 1, 0)
+Vertical_9.ZIndex = 3
+
+Horizon_9.Name = "Horizon"
+Horizon_9.Parent = RoundedBG_24
+Horizon_9.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_9.BorderSizePixel = 0
+Horizon_9.Position = UDim2.new(0, 0, 0, 10)
+Horizon_9.Size = UDim2.new(1, 0, 1, -20)
+Horizon_9.ZIndex = 2
+
+Corner_33.Name = "Corner"
+Corner_33.Parent = RoundedBG_24
+Corner_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_33.BackgroundTransparency = 1.000
+Corner_33.BorderSizePixel = 0
+Corner_33.Size = UDim2.new(0, 10, 0, 10)
+Corner_33.Image = "rbxassetid://257730458"
+Corner_33.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_33.ImageRectSize = Vector2.new(384, 384)
+
+Corner_34.Name = "Corner"
+Corner_34.Parent = RoundedBG_24
+Corner_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_34.BackgroundTransparency = 1.000
+Corner_34.BorderSizePixel = 0
+Corner_34.Position = UDim2.new(1, -10, 0, 0)
+Corner_34.Size = UDim2.new(0, 10, 0, 10)
+Corner_34.Image = "rbxassetid://257730458"
+Corner_34.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_34.ImageRectOffset = Vector2.new(384, 0)
+Corner_34.ImageRectSize = Vector2.new(384, 384)
+
+Corner_35.Name = "Corner"
+Corner_35.Parent = RoundedBG_24
+Corner_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_35.BackgroundTransparency = 1.000
+Corner_35.BorderSizePixel = 0
+Corner_35.Position = UDim2.new(0, 0, 1, -10)
+Corner_35.Size = UDim2.new(0, 10, 0, 10)
+Corner_35.Image = "rbxassetid://257730458"
+Corner_35.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_35.ImageRectOffset = Vector2.new(0, 384)
+Corner_35.ImageRectSize = Vector2.new(384, 384)
+
+Corner_36.Name = "Corner"
+Corner_36.Parent = RoundedBG_24
+Corner_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_36.BackgroundTransparency = 1.000
+Corner_36.BorderSizePixel = 0
+Corner_36.Position = UDim2.new(1, -10, 1, -10)
+Corner_36.Size = UDim2.new(0, 10, 0, 10)
+Corner_36.Image = "rbxassetid://257730458"
+Corner_36.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_36.ImageRectOffset = Vector2.new(384, 384)
+Corner_36.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_17.Name = "ButtonName"
+ButtonName_17.Parent = Page2
+ButtonName_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_17.BackgroundTransparency = 1.000
+ButtonName_17.Position = UDim2.new(0.254999995, 10, 1.57500005, -280)
+ButtonName_17.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_17.ZIndex = 7
+ButtonName_17.Font = Enum.Font.SourceSansBold
+ButtonName_17.Text = "Script here"
+ButtonName_17.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_17.TextSize = 18.000
+ButtonName_17.TextWrapped = true
+
+RoundedBG_25.Name = "RoundedBG"
+RoundedBG_25.Parent = ButtonName_17
+RoundedBG_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_25.BackgroundTransparency = 1.000
+RoundedBG_25.BorderSizePixel = 0
+RoundedBG_25.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_10.Name = "Vertical"
+Vertical_10.Parent = RoundedBG_25
+Vertical_10.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_10.BorderSizePixel = 0
+Vertical_10.Position = UDim2.new(0, 10, 0, 0)
+Vertical_10.Size = UDim2.new(1, -20, 1, 0)
+Vertical_10.ZIndex = 3
+
+Horizon_10.Name = "Horizon"
+Horizon_10.Parent = RoundedBG_25
+Horizon_10.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_10.BorderSizePixel = 0
+Horizon_10.Position = UDim2.new(0, 0, 0, 10)
+Horizon_10.Size = UDim2.new(1, 0, 1, -20)
+Horizon_10.ZIndex = 2
+
+Corner_37.Name = "Corner"
+Corner_37.Parent = RoundedBG_25
+Corner_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_37.BackgroundTransparency = 1.000
+Corner_37.BorderSizePixel = 0
+Corner_37.Size = UDim2.new(0, 10, 0, 10)
+Corner_37.Image = "rbxassetid://257730458"
+Corner_37.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_37.ImageRectSize = Vector2.new(384, 384)
+
+Corner_38.Name = "Corner"
+Corner_38.Parent = RoundedBG_25
+Corner_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_38.BackgroundTransparency = 1.000
+Corner_38.BorderSizePixel = 0
+Corner_38.Position = UDim2.new(1, -10, 0, 0)
+Corner_38.Size = UDim2.new(0, 10, 0, 10)
+Corner_38.Image = "rbxassetid://257730458"
+Corner_38.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_38.ImageRectOffset = Vector2.new(384, 0)
+Corner_38.ImageRectSize = Vector2.new(384, 384)
+
+Corner_39.Name = "Corner"
+Corner_39.Parent = RoundedBG_25
+Corner_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_39.BackgroundTransparency = 1.000
+Corner_39.BorderSizePixel = 0
+Corner_39.Position = UDim2.new(0, 0, 1, -10)
+Corner_39.Size = UDim2.new(0, 10, 0, 10)
+Corner_39.Image = "rbxassetid://257730458"
+Corner_39.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_39.ImageRectOffset = Vector2.new(0, 384)
+Corner_39.ImageRectSize = Vector2.new(384, 384)
+
+Corner_40.Name = "Corner"
+Corner_40.Parent = RoundedBG_25
+Corner_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_40.BackgroundTransparency = 1.000
+Corner_40.BorderSizePixel = 0
+Corner_40.Position = UDim2.new(1, -10, 1, -10)
+Corner_40.Size = UDim2.new(0, 10, 0, 10)
+Corner_40.Image = "rbxassetid://257730458"
+Corner_40.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_40.ImageRectOffset = Vector2.new(384, 384)
+Corner_40.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_18.Name = "ButtonName"
+ButtonName_18.Parent = Page2
+ButtonName_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_18.BackgroundTransparency = 1.000
+ButtonName_18.Position = UDim2.new(0.254999995, 10, 1.875, -280)
+ButtonName_18.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_18.ZIndex = 7
+ButtonName_18.Font = Enum.Font.SourceSansBold
+ButtonName_18.Text = "Script here"
+ButtonName_18.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_18.TextSize = 18.000
+ButtonName_18.TextWrapped = true
+
+RoundedBG_26.Name = "RoundedBG"
+RoundedBG_26.Parent = ButtonName_18
+RoundedBG_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_26.BackgroundTransparency = 1.000
+RoundedBG_26.BorderSizePixel = 0
+RoundedBG_26.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_11.Name = "Vertical"
+Vertical_11.Parent = RoundedBG_26
+Vertical_11.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_11.BorderSizePixel = 0
+Vertical_11.Position = UDim2.new(0, 10, 0, 0)
+Vertical_11.Size = UDim2.new(1, -20, 1, 0)
+Vertical_11.ZIndex = 3
+
+Horizon_11.Name = "Horizon"
+Horizon_11.Parent = RoundedBG_26
+Horizon_11.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_11.BorderSizePixel = 0
+Horizon_11.Position = UDim2.new(0, 0, 0, 10)
+Horizon_11.Size = UDim2.new(1, 0, 1, -20)
+Horizon_11.ZIndex = 2
+
+Corner_41.Name = "Corner"
+Corner_41.Parent = RoundedBG_26
+Corner_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_41.BackgroundTransparency = 1.000
+Corner_41.BorderSizePixel = 0
+Corner_41.Size = UDim2.new(0, 10, 0, 10)
+Corner_41.Image = "rbxassetid://257730458"
+Corner_41.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_41.ImageRectSize = Vector2.new(384, 384)
+
+Corner_42.Name = "Corner"
+Corner_42.Parent = RoundedBG_26
+Corner_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_42.BackgroundTransparency = 1.000
+Corner_42.BorderSizePixel = 0
+Corner_42.Position = UDim2.new(1, -10, 0, 0)
+Corner_42.Size = UDim2.new(0, 10, 0, 10)
+Corner_42.Image = "rbxassetid://257730458"
+Corner_42.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_42.ImageRectOffset = Vector2.new(384, 0)
+Corner_42.ImageRectSize = Vector2.new(384, 384)
+
+Corner_43.Name = "Corner"
+Corner_43.Parent = RoundedBG_26
+Corner_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_43.BackgroundTransparency = 1.000
+Corner_43.BorderSizePixel = 0
+Corner_43.Position = UDim2.new(0, 0, 1, -10)
+Corner_43.Size = UDim2.new(0, 10, 0, 10)
+Corner_43.Image = "rbxassetid://257730458"
+Corner_43.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_43.ImageRectOffset = Vector2.new(0, 384)
+Corner_43.ImageRectSize = Vector2.new(384, 384)
+
+Corner_44.Name = "Corner"
+Corner_44.Parent = RoundedBG_26
+Corner_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_44.BackgroundTransparency = 1.000
+Corner_44.BorderSizePixel = 0
+Corner_44.Position = UDim2.new(1, -10, 1, -10)
+Corner_44.Size = UDim2.new(0, 10, 0, 10)
+Corner_44.Image = "rbxassetid://257730458"
+Corner_44.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_44.ImageRectOffset = Vector2.new(384, 384)
+Corner_44.ImageRectSize = Vector2.new(384, 384)
+
+ButtonName_19.Name = "ButtonName"
+ButtonName_19.Parent = Page2
+ButtonName_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonName_19.BackgroundTransparency = 1.000
+ButtonName_19.Position = UDim2.new(0.254999995, 10, 1.27499998, -280)
+ButtonName_19.Size = UDim2.new(0, 110, 0, 48)
+ButtonName_19.ZIndex = 7
+ButtonName_19.Font = Enum.Font.SourceSansBold
+ButtonName_19.Text = "Script here"
+ButtonName_19.TextColor3 = Color3.fromRGB(61, 61, 61)
+ButtonName_19.TextSize = 18.000
+ButtonName_19.TextWrapped = true
+
+RoundedBG_27.Name = "RoundedBG"
+RoundedBG_27.Parent = ButtonName_19
+RoundedBG_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_27.BackgroundTransparency = 1.000
+RoundedBG_27.BorderSizePixel = 0
+RoundedBG_27.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_12.Name = "Vertical"
+Vertical_12.Parent = RoundedBG_27
+Vertical_12.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_12.BorderSizePixel = 0
+Vertical_12.Position = UDim2.new(0, 10, 0, 0)
+Vertical_12.Size = UDim2.new(1, -20, 1, 0)
+Vertical_12.ZIndex = 3
+
+Horizon_12.Name = "Horizon"
+Horizon_12.Parent = RoundedBG_27
+Horizon_12.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_12.BorderSizePixel = 0
+Horizon_12.Position = UDim2.new(0, 0, 0, 10)
+Horizon_12.Size = UDim2.new(1, 0, 1, -20)
+Horizon_12.ZIndex = 2
+
+Corner_45.Name = "Corner"
+Corner_45.Parent = RoundedBG_27
+Corner_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_45.BackgroundTransparency = 1.000
+Corner_45.BorderSizePixel = 0
+Corner_45.Size = UDim2.new(0, 10, 0, 10)
+Corner_45.Image = "rbxassetid://257730458"
+Corner_45.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_45.ImageRectSize = Vector2.new(384, 384)
+
+Corner_46.Name = "Corner"
+Corner_46.Parent = RoundedBG_27
+Corner_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_46.BackgroundTransparency = 1.000
+Corner_46.BorderSizePixel = 0
+Corner_46.Position = UDim2.new(1, -10, 0, 0)
+Corner_46.Size = UDim2.new(0, 10, 0, 10)
+Corner_46.Image = "rbxassetid://257730458"
+Corner_46.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_46.ImageRectOffset = Vector2.new(384, 0)
+Corner_46.ImageRectSize = Vector2.new(384, 384)
+
+Corner_47.Name = "Corner"
+Corner_47.Parent = RoundedBG_27
+Corner_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_47.BackgroundTransparency = 1.000
+Corner_47.BorderSizePixel = 0
+Corner_47.Position = UDim2.new(0, 0, 1, -10)
+Corner_47.Size = UDim2.new(0, 10, 0, 10)
+Corner_47.Image = "rbxassetid://257730458"
+Corner_47.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_47.ImageRectOffset = Vector2.new(0, 384)
+Corner_47.ImageRectSize = Vector2.new(384, 384)
+
+Corner_48.Name = "Corner"
+Corner_48.Parent = RoundedBG_27
+Corner_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_48.BackgroundTransparency = 1.000
+Corner_48.BorderSizePixel = 0
+Corner_48.Position = UDim2.new(1, -10, 1, -10)
+Corner_48.Size = UDim2.new(0, 10, 0, 10)
+Corner_48.Image = "rbxassetid://257730458"
+Corner_48.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_48.ImageRectOffset = Vector2.new(384, 384)
+Corner_48.ImageRectSize = Vector2.new(384, 384)
+
+PageNumber_2.Name = "Page Number"
+PageNumber_2.Parent = Page2
+PageNumber_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageNumber_2.BackgroundTransparency = 1.000
+PageNumber_2.Position = UDim2.new(0.428636372, 10, 2.45220423, -280)
+PageNumber_2.Size = UDim2.new(0, 60, 0, 32)
+PageNumber_2.ZIndex = 7
+PageNumber_2.Font = Enum.Font.SourceSansBold
+PageNumber_2.Text = "Page 2"
+PageNumber_2.TextColor3 = Color3.fromRGB(61, 61, 61)
+PageNumber_2.TextSize = 22.000
+PageNumber_2.TextWrapped = true
+
+Page_2.Name = "Page<"
+Page_2.Parent = Page2
+Page_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page_2.BackgroundTransparency = 1.000
+Page_2.Position = UDim2.new(0.69599998, 10, 1.05499995, -280)
+Page_2.Size = UDim2.new(0, 44, 0, 32)
+Page_2.ZIndex = 7
+Page_2.Font = Enum.Font.SourceSansBold
+Page_2.Text = "<"
+Page_2.TextColor3 = Color3.fromRGB(61, 61, 61)
+Page_2.TextSize = 22.000
+Page_2.TextWrapped = true
+
+RoundedBG_28.Name = "RoundedBG"
+RoundedBG_28.Parent = Page_2
+RoundedBG_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_28.BackgroundTransparency = 1.000
+RoundedBG_28.BorderSizePixel = 0
+RoundedBG_28.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_13.Name = "Vertical"
+Vertical_13.Parent = RoundedBG_28
+Vertical_13.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_13.BorderSizePixel = 0
+Vertical_13.Position = UDim2.new(0, 10, 0, 0)
+Vertical_13.Size = UDim2.new(1, -20, 1, 0)
+Vertical_13.ZIndex = 3
+
+Horizon_13.Name = "Horizon"
+Horizon_13.Parent = RoundedBG_28
+Horizon_13.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_13.BorderSizePixel = 0
+Horizon_13.Position = UDim2.new(0, 0, 0, 10)
+Horizon_13.Size = UDim2.new(1, 0, 1, -20)
+Horizon_13.ZIndex = 2
+
+Corner_49.Name = "Corner"
+Corner_49.Parent = RoundedBG_28
+Corner_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_49.BackgroundTransparency = 1.000
+Corner_49.BorderSizePixel = 0
+Corner_49.Size = UDim2.new(0, 10, 0, 10)
+Corner_49.Image = "rbxassetid://257730458"
+Corner_49.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_49.ImageRectSize = Vector2.new(384, 384)
+
+Corner_50.Name = "Corner"
+Corner_50.Parent = RoundedBG_28
+Corner_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_50.BackgroundTransparency = 1.000
+Corner_50.BorderSizePixel = 0
+Corner_50.Position = UDim2.new(1, -10, 0, 0)
+Corner_50.Size = UDim2.new(0, 10, 0, 10)
+Corner_50.Image = "rbxassetid://257730458"
+Corner_50.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_50.ImageRectOffset = Vector2.new(384, 0)
+Corner_50.ImageRectSize = Vector2.new(384, 384)
+
+Corner_51.Name = "Corner"
+Corner_51.Parent = RoundedBG_28
+Corner_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_51.BackgroundTransparency = 1.000
+Corner_51.BorderSizePixel = 0
+Corner_51.Position = UDim2.new(0, 0, 1, -10)
+Corner_51.Size = UDim2.new(0, 10, 0, 10)
+Corner_51.Image = "rbxassetid://257730458"
+Corner_51.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_51.ImageRectOffset = Vector2.new(0, 384)
+Corner_51.ImageRectSize = Vector2.new(384, 384)
+
+Corner_52.Name = "Corner"
+Corner_52.Parent = RoundedBG_28
+Corner_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_52.BackgroundTransparency = 1.000
+Corner_52.BorderSizePixel = 0
+Corner_52.Position = UDim2.new(1, -10, 1, -10)
+Corner_52.Size = UDim2.new(0, 10, 0, 10)
+Corner_52.Image = "rbxassetid://257730458"
+Corner_52.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_52.ImageRectOffset = Vector2.new(384, 384)
+Corner_52.ImageRectSize = Vector2.new(384, 384)
+
+Page_3.Name = "Page>"
+Page_3.Parent = Page2
+Page_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page_3.BackgroundTransparency = 1.000
+Page_3.Position = UDim2.new(0.786000013, 10, 1.05499995, -280)
+Page_3.Size = UDim2.new(0, 44, 0, 32)
+Page_3.ZIndex = 7
+Page_3.Font = Enum.Font.SourceSansBold
+Page_3.Text = ">"
+Page_3.TextColor3 = Color3.fromRGB(61, 61, 61)
+Page_3.TextSize = 22.000
+Page_3.TextWrapped = true
+
+RoundedBG_29.Name = "RoundedBG"
+RoundedBG_29.Parent = Page_3
+RoundedBG_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoundedBG_29.BackgroundTransparency = 1.000
+RoundedBG_29.BorderSizePixel = 0
+RoundedBG_29.Size = UDim2.new(1, 0, 1, 0)
+
+Vertical_14.Name = "Vertical"
+Vertical_14.Parent = RoundedBG_29
+Vertical_14.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Vertical_14.BorderSizePixel = 0
+Vertical_14.Position = UDim2.new(0, 10, 0, 0)
+Vertical_14.Size = UDim2.new(1, -20, 1, 0)
+Vertical_14.ZIndex = 3
+
+Horizon_14.Name = "Horizon"
+Horizon_14.Parent = RoundedBG_29
+Horizon_14.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Horizon_14.BorderSizePixel = 0
+Horizon_14.Position = UDim2.new(0, 0, 0, 10)
+Horizon_14.Size = UDim2.new(1, 0, 1, -20)
+Horizon_14.ZIndex = 2
+
+Corner_53.Name = "Corner"
+Corner_53.Parent = RoundedBG_29
+Corner_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_53.BackgroundTransparency = 1.000
+Corner_53.BorderSizePixel = 0
+Corner_53.Size = UDim2.new(0, 10, 0, 10)
+Corner_53.Image = "rbxassetid://257730458"
+Corner_53.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_53.ImageRectSize = Vector2.new(384, 384)
+
+Corner_54.Name = "Corner"
+Corner_54.Parent = RoundedBG_29
+Corner_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_54.BackgroundTransparency = 1.000
+Corner_54.BorderSizePixel = 0
+Corner_54.Position = UDim2.new(1, -10, 0, 0)
+Corner_54.Size = UDim2.new(0, 10, 0, 10)
+Corner_54.Image = "rbxassetid://257730458"
+Corner_54.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_54.ImageRectOffset = Vector2.new(384, 0)
+Corner_54.ImageRectSize = Vector2.new(384, 384)
+
+Corner_55.Name = "Corner"
+Corner_55.Parent = RoundedBG_29
+Corner_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_55.BackgroundTransparency = 1.000
+Corner_55.BorderSizePixel = 0
+Corner_55.Position = UDim2.new(0, 0, 1, -10)
+Corner_55.Size = UDim2.new(0, 10, 0, 10)
+Corner_55.Image = "rbxassetid://257730458"
+Corner_55.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_55.ImageRectOffset = Vector2.new(0, 384)
+Corner_55.ImageRectSize = Vector2.new(384, 384)
+
+Corner_56.Name = "Corner"
+Corner_56.Parent = RoundedBG_29
+Corner_56.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Corner_56.BackgroundTransparency = 1.000
+Corner_56.BorderSizePixel = 0
+Corner_56.Position = UDim2.new(1, -10, 1, -10)
+Corner_56.Size = UDim2.new(0, 10, 0, 10)
+Corner_56.Image = "rbxassetid://257730458"
+Corner_56.ImageColor3 = Color3.fromRGB(152, 255, 152)
+Corner_56.ImageRectOffset = Vector2.new(384, 384)
+Corner_56.ImageRectSize = Vector2.new(384, 384)
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(152, 255, 152)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.876363695, 10, 0.93225807, -280)
+Close.Size = UDim2.new(0, 44, 0, 32)
+Close.ZIndex = 7
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(61, 61, 61)
+Close.TextSize = 18.000
+Close.TextWrapped = true
+
+RoundedBG_30.CornerRadius = UDim.new(0, 9)
+RoundedBG_30.Name = "RoundedBG"
+RoundedBG_30.Parent = Close
+
+-- Scripts:
+
+local function QAIJY_fake_script() -- TpSecretIsland.SecretIsland 
+	local script = Instance.new('LocalScript', TpSecretIsland)
+
+	TpSecretIsland.MouseButton1Down:connect(function()	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19456.1074, -213.206375, 989.955627, 0.645930648, -5.46522045e-08, 0.763396144, 5.9009384e-08, 1, 2.16614087e-08, -0.763396144, 3.10557695e-08, 0.645930648)
+	end)
+end
+coroutine.wrap(QAIJY_fake_script)()
+local function OOBH_fake_script() -- OpenBestEgg.Open 
+	local script = Instance.new('LocalScript', OpenBestEgg)
+
+	OpenBestEgg.MouseButton1Down:connect(function()	
+		local args = {
+			[1] = "Secret",
+			[2] = "Single"
+		}
+	
+		game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
+	end)
+end
+coroutine.wrap(OOBH_fake_script)()
+local function UEML_fake_script() -- AutoClickOff.Off 
+	local script = Instance.new('LocalScript', AutoClickOff)
+
+	AutoClickOff.MouseButton1Down:connect(function()
+		getgenv().farmer = false;
+	
+		--[[while wait() do
+			if getgenv().farmer == true then
+				workspace.Events.AddClick:FireServer()
+			end
+		end--]]
+	end)
+end
+coroutine.wrap(UEML_fake_script)()
+local function DFMDY_fake_script() -- Page.LocalScript 
+	local script = Instance.new('LocalScript', Page)
+
+	local function findPlayer(name)
+		name = name:lower()
+		if name == 'me' then
+			return game:GetService'Players'.LocalPlayer
+		end
+		for i,v in pairs(game:GetService'Players':GetPlayers()) do
+			if v.Name:lower():find(name) == 1 then
+				return v
+			end
+		end
+	end
+	
+	if(_G.TweenDB==nil)then
+		_G.TweenDB=false
+	end
+	
+	local currpage = script.Parent.Parent
+	local nextpage = script.Parent.Parent.Parent:WaitForChild"Page2"
+	script.Parent.MouseButton1Click:connect(function()
+		if(_G.TweenDB)then return end
+		_G.TweenDB=true
+		nextpage.Visible=true
+		currpage.Visible=true
+		nextpage.Position = UDim2.new(1,0,.3,0)
+		currpage:TweenPosition(UDim2.new(-1,0,.3,0),Enum.EasingDirection.In,Enum.EasingStyle.Back,.6,true)
+		wait(.4)
+		nextpage:TweenPosition(UDim2.new(0,0,.3,0),Enum.EasingDirection.Out,Enum.EasingStyle.Back,.5,true)
+		wait(.5)
+		_G.TweenDB=false
+	end)
+end
+coroutine.wrap(DFMDY_fake_script)()
+local function OXPZ_fake_script() -- AutoClickOn.On 
+	local script = Instance.new('LocalScript', AutoClickOn)
+
+	AutoClickOn.MouseButton1Down:connect(function()
+		getgenv().farmer = true;
+	
+		while wait() do
+			if getgenv().farmer == true then
+				workspace.Events.AddClick:FireServer()
+			end
+		end
+	end)
+end
+coroutine.wrap(OXPZ_fake_script)()
+local function AQIC_fake_script() -- TpSpawn.Spawn 
+	local script = Instance.new('LocalScript', TpSpawn)
+
+	TpSpawn.MouseButton1Down:connect(function()	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1173.37964, -38.6989517, 577.089905, 0.998516858, -2.62784603e-08, -0.0544430353, 2.23005898e-08, 1, -7.36723464e-08, 0.0544430353, 7.23489748e-08, 0.998516858)
+	end)
+end
+coroutine.wrap(AQIC_fake_script)()
+local function WQCFF_fake_script() -- Page_2.LocalScript 
+	local script = Instance.new('LocalScript', Page_2)
+
+	local function findPlayer(name)
+		name = name:lower()
+		if name == 'me' then
+			return game:GetService'Players'.LocalPlayer
+		end
+		for i,v in pairs(game:GetService'Players':GetPlayers()) do
+			if v.Name:lower():find(name) == 1 then
+				return v
+			end
+		end
+	end
+	
+	if(_G.TweenDB==nil)then
+		_G.TweenDB=false
+	end
+	
+	local currpage = script.Parent.Parent
+	local nextpage = script.Parent.Parent.Parent:WaitForChild"Page1"
+	script.Parent.MouseButton1Click:connect(function()
+		if(_G.TweenDB)then return end
+		_G.TweenDB=true
+		nextpage.Visible=true
+		currpage.Visible=true
+		nextpage.Position = UDim2.new(-1,0,.3,0)
+		currpage:TweenPosition(UDim2.new(1,0,.3,0),Enum.EasingDirection.In,Enum.EasingStyle.Back,.6,true)
+		wait(.4)
+		nextpage:TweenPosition(UDim2.new(0,0,.3,0),Enum.EasingDirection.Out,Enum.EasingStyle.Back,.5,true)
+		wait(.5)
+		_G.TweenDB=false
+	end)
+end
+coroutine.wrap(WQCFF_fake_script)()
+local function UDQCZRT_fake_script() -- Page_3.LocalScript 
+	local script = Instance.new('LocalScript', Page_3)
+
+	local function findPlayer(name)
+		name = name:lower()
+		if name == 'me' then
+			return game:GetService'Players'.LocalPlayer
+		end
+		for i,v in pairs(game:GetService'Players':GetPlayers()) do
+			if v.Name:lower():find(name) == 1 then
+				return v
+			end
+		end
+	end
+	
+	if(_G.TweenDB==nil)then
+		_G.TweenDB=false
+	end
+	
+	local currpage = script.Parent.Parent
+	local nextpage = script.Parent.Parent.Parent:WaitForChild"Page3"
+	script.Parent.MouseButton1Click:connect(function()
+		if(_G.TweenDB)then return end
+		_G.TweenDB=true
+		nextpage.Visible=true
+		currpage.Visible=true
+		nextpage.Position = UDim2.new(1,0,.3,0)
+		currpage:TweenPosition(UDim2.new(-1,0,.3,0),Enum.EasingDirection.In,Enum.EasingStyle.Back,.6,true)
+		wait(.4)
+		nextpage:TweenPosition(UDim2.new(0,0,.3,0),Enum.EasingDirection.Out,Enum.EasingStyle.Back,.5,true)
+		wait(.5)
+		_G.TweenDB=false
+	end)
+end
+coroutine.wrap(UDQCZRT_fake_script)()
+local function VLSATYD_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.TextButton.Visible = true
+	end)
+end
+coroutine.wrap(VLSATYD_fake_script)()
+local function CTUAVVX_fake_script() -- ScreenGui.Draggable 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	frame = script.Parent.Main
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(CTUAVVX_fake_script)()
