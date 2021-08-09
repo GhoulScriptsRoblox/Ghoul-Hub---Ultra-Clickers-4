@@ -1,7 +1,7 @@
--- Made by Ghoul Scripts
+-- Made by GhoulScripts
 -- Subscribe to my YouTube channel : https://www.youtube.com/channel/UCqiDt4odmGjSGfj58XX5oAg
 
-local ScreenGui = Instance.new("ScreenGui")
+local UltraClickers4 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local RoundedBG = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
@@ -100,10 +100,11 @@ local RoundedBG_43 = Instance.new("UICorner")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UltraClickers4.Name = "Ultra Clickers 4"
+UltraClickers4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Main.Name = "Main"
-Main.Parent = ScreenGui
+Main.Parent = UltraClickers4
 Main.Active = true
 Main.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 Main.Position = UDim2.new(0.365041077, 0, 0.225196838, 0)
@@ -929,15 +930,15 @@ RoundedBG_43.Parent = Close
 
 -- Scripts:
 
-local function RHLM_fake_script() -- TpSecretIsland.SecretIsland 
+local function SZHAS_fake_script() -- TpSecretIsland.SecretIsland 
 	local script = Instance.new('LocalScript', TpSecretIsland)
 
 	TpSecretIsland.MouseButton1Down:connect(function()	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19456.1074, -213.206375, 989.955627, 0.645930648, -5.46522045e-08, 0.763396144, 5.9009384e-08, 1, 2.16614087e-08, -0.763396144, 3.10557695e-08, 0.645930648)
 	end)
 end
-coroutine.wrap(RHLM_fake_script)()
-local function NKWDDB_fake_script() -- OpenBestEgg.Open 
+coroutine.wrap(SZHAS_fake_script)()
+local function DZSB_fake_script() -- OpenBestEgg.Open 
 	local script = Instance.new('LocalScript', OpenBestEgg)
 
 	OpenBestEgg.MouseButton1Down:connect(function()	
@@ -949,16 +950,16 @@ local function NKWDDB_fake_script() -- OpenBestEgg.Open
 		game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
 	end)
 end
-coroutine.wrap(NKWDDB_fake_script)()
-local function PWFPV_fake_script() -- OpenBestEgg.LocalScript 
+coroutine.wrap(DZSB_fake_script)()
+local function LRBF_fake_script() -- OpenBestEgg.LocalScript 
 	local script = Instance.new('LocalScript', OpenBestEgg)
 
 	OpenBestEgg.MouseButton1Down:connect(function()	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19886.123, -196.648026, 798.035217, 0.084190771, -4.15933954e-08, 0.996449649, -1.08398597e-08, 1, 4.2657458e-08, -0.996449649, -1.43927386e-08, 0.084190771)
 	end)
 end
-coroutine.wrap(PWFPV_fake_script)()
-local function DKMYJ_fake_script() -- AutoClickOff.Off 
+coroutine.wrap(LRBF_fake_script)()
+local function SYHA_fake_script() -- AutoClickOff.Off 
 	local script = Instance.new('LocalScript', AutoClickOff)
 
 	AutoClickOff.MouseButton1Down:connect(function()
@@ -971,8 +972,8 @@ local function DKMYJ_fake_script() -- AutoClickOff.Off
 		end--]]
 	end)
 end
-coroutine.wrap(DKMYJ_fake_script)()
-local function ZATQG_fake_script() -- Page.LocalScript 
+coroutine.wrap(SYHA_fake_script)()
+local function UKMB_fake_script() -- Page.LocalScript 
 	local script = Instance.new('LocalScript', Page)
 
 	local function findPlayer(name)
@@ -1006,8 +1007,8 @@ local function ZATQG_fake_script() -- Page.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(ZATQG_fake_script)()
-local function VXAUU_fake_script() -- AutoClickOn.On 
+coroutine.wrap(UKMB_fake_script)()
+local function CIISIBC_fake_script() -- AutoClickOn.On 
 	local script = Instance.new('LocalScript', AutoClickOn)
 
 	AutoClickOn.MouseButton1Down:connect(function()
@@ -1020,16 +1021,16 @@ local function VXAUU_fake_script() -- AutoClickOn.On
 		end
 	end)
 end
-coroutine.wrap(VXAUU_fake_script)()
-local function BVGMXBG_fake_script() -- TpSpawn.Spawn 
+coroutine.wrap(CIISIBC_fake_script)()
+local function YBKT_fake_script() -- TpSpawn.Spawn 
 	local script = Instance.new('LocalScript', TpSpawn)
 
 	TpSpawn.MouseButton1Down:connect(function()	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1173.37964, -38.6989517, 577.089905, 0.998516858, -2.62784603e-08, -0.0544430353, 2.23005898e-08, 1, -7.36723464e-08, 0.0544430353, 7.23489748e-08, 0.998516858)
 	end)
 end
-coroutine.wrap(BVGMXBG_fake_script)()
-local function OONW_fake_script() -- Page_2.LocalScript 
+coroutine.wrap(YBKT_fake_script)()
+local function FHKITGN_fake_script() -- Page_2.LocalScript 
 	local script = Instance.new('LocalScript', Page_2)
 
 	local function findPlayer(name)
@@ -1063,8 +1064,8 @@ local function OONW_fake_script() -- Page_2.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(OONW_fake_script)()
-local function FVPXBBF_fake_script() -- Page_3.LocalScript 
+coroutine.wrap(FHKITGN_fake_script)()
+local function VBHYYZN_fake_script() -- Page_3.LocalScript 
 	local script = Instance.new('LocalScript', Page_3)
 
 	local function findPlayer(name)
@@ -1098,8 +1099,8 @@ local function FVPXBBF_fake_script() -- Page_3.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(FVPXBBF_fake_script)()
-local function XMNLS_fake_script() -- Page_4.LocalScript 
+coroutine.wrap(VBHYYZN_fake_script)()
+local function MUZVORF_fake_script() -- Page_4.LocalScript 
 	local script = Instance.new('LocalScript', Page_4)
 
 	local function findPlayer(name)
@@ -1133,8 +1134,8 @@ local function XMNLS_fake_script() -- Page_4.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(XMNLS_fake_script)()
-local function JUOBI_fake_script() -- Close.LocalScript 
+coroutine.wrap(MUZVORF_fake_script)()
+local function THFHADB_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1142,13 +1143,13 @@ local function JUOBI_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent.TextButton.Visible = true
 	end)
 end
-coroutine.wrap(JUOBI_fake_script)()
-local function IJDOTY_fake_script() -- ScreenGui.Draggable 
-	local script = Instance.new('LocalScript', ScreenGui)
+coroutine.wrap(THFHADB_fake_script)()
+local function EUAGWZ_fake_script() -- UltraClickers4.Draggable 
+	local script = Instance.new('LocalScript', UltraClickers4)
 
 	frame = script.Parent.Main
 	frame.Draggable = true
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(IJDOTY_fake_script)()
+coroutine.wrap(EUAGWZ_fake_script)()
