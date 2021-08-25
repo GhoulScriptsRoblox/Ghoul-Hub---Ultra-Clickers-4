@@ -931,37 +931,36 @@ RoundedBG_43.Parent = Close
 
 -- Scripts:
 
-local function FKSJJ_fake_script() -- TpSecretIsland.SecretIsland 
+local function LYAVF_fake_script() -- TpSecretIsland.SecretIsland 
 	local script = Instance.new('LocalScript', TpSecretIsland)
 
 	TpSecretIsland.MouseButton1Down:connect(function()	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19421.334, -210.606796, -1684.5957, 0.629923582, -4.44061712e-08, 0.776657104, 7.94103894e-09, 1, 5.0735288e-08, -0.776657104, -2.57918895e-08, 0.629923582)
 	end)
 end
-coroutine.wrap(FKSJJ_fake_script)()
-local function JMBABDA_fake_script() -- OpenBestEgg.Open 
+coroutine.wrap(LYAVF_fake_script)()
+local function YAWRRH_fake_script() -- OpenBestEgg.Open 
 	local script = Instance.new('LocalScript', OpenBestEgg)
 
 	OpenBestEgg.MouseButton1Down:connect(function()	
 		local args = {
-			[1] = "HackerEgg",
+			[1] = "GoldenPlanetEgg",
 			[2] = "Single"
 		}
 	
 		game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
-	
 	end)
 end
-coroutine.wrap(JMBABDA_fake_script)()
-local function EVZITBV_fake_script() -- OpenBestEgg.LocalScript 
+coroutine.wrap(YAWRRH_fake_script)()
+local function MMHKFDV_fake_script() -- OpenBestEgg.LocalScript 
 	local script = Instance.new('LocalScript', OpenBestEgg)
 
 	OpenBestEgg.MouseButton1Down:connect(function()	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2046.59485, -25.9586754, -2507.79492, -0.0332765393, 2.0422759e-09, 0.999446154, -1.9020332e-08, 1, -2.67668909e-09, -0.999446154, -1.90988683e-08, -0.0332765393)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2391, -25.9662075, -2493, -0.0610347167, -4.84252105e-09, 0.998135626, 6.58251809e-09, 1, 5.25407851e-09, -0.998135626, 6.89092694e-09, -0.0610347167)
 	end)
 end
-coroutine.wrap(EVZITBV_fake_script)()
-local function PZXJN_fake_script() -- AutoClickOff.Off 
+coroutine.wrap(MMHKFDV_fake_script)()
+local function LYTYIRD_fake_script() -- AutoClickOff.Off 
 	local script = Instance.new('LocalScript', AutoClickOff)
 
 	AutoClickOff.MouseButton1Down:connect(function()
@@ -974,8 +973,8 @@ local function PZXJN_fake_script() -- AutoClickOff.Off
 		end--]]
 	end)
 end
-coroutine.wrap(PZXJN_fake_script)()
-local function AKCSXX_fake_script() -- Page.LocalScript 
+coroutine.wrap(LYTYIRD_fake_script)()
+local function KHFDZIN_fake_script() -- Page.LocalScript 
 	local script = Instance.new('LocalScript', Page)
 
 	local function findPlayer(name)
@@ -1009,8 +1008,8 @@ local function AKCSXX_fake_script() -- Page.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(AKCSXX_fake_script)()
-local function HYDGLI_fake_script() -- AutoClickOn.On 
+coroutine.wrap(KHFDZIN_fake_script)()
+local function XVUC_fake_script() -- AutoClickOn.On 
 	local script = Instance.new('LocalScript', AutoClickOn)
 
 	AutoClickOn.MouseButton1Down:connect(function()
@@ -1023,16 +1022,16 @@ local function HYDGLI_fake_script() -- AutoClickOn.On
 		end
 	end)
 end
-coroutine.wrap(HYDGLI_fake_script)()
-local function OYTSURJ_fake_script() -- TpSpawn.Spawn 
+coroutine.wrap(XVUC_fake_script)()
+local function YTUHKLV_fake_script() -- TpSpawn.Spawn 
 	local script = Instance.new('LocalScript', TpSpawn)
 
 	TpSpawn.MouseButton1Down:connect(function()	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1173.37964, -38.6989517, 577.089905, 0.998516858, -2.62784603e-08, -0.0544430353, 2.23005898e-08, 1, -7.36723464e-08, 0.0544430353, 7.23489748e-08, 0.998516858)
 	end)
 end
-coroutine.wrap(OYTSURJ_fake_script)()
-local function VGXP_fake_script() -- Page_2.LocalScript 
+coroutine.wrap(YTUHKLV_fake_script)()
+local function EHULDAW_fake_script() -- Page_2.LocalScript 
 	local script = Instance.new('LocalScript', Page_2)
 
 	local function findPlayer(name)
@@ -1066,8 +1065,8 @@ local function VGXP_fake_script() -- Page_2.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(VGXP_fake_script)()
-local function BYON_fake_script() -- Page_3.LocalScript 
+coroutine.wrap(EHULDAW_fake_script)()
+local function FMCQ_fake_script() -- Page_3.LocalScript 
 	local script = Instance.new('LocalScript', Page_3)
 
 	local function findPlayer(name)
@@ -1101,8 +1100,8 @@ local function BYON_fake_script() -- Page_3.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(BYON_fake_script)()
-local function IHTZJX_fake_script() -- Page_4.LocalScript 
+coroutine.wrap(FMCQ_fake_script)()
+local function PZKQ_fake_script() -- Page_4.LocalScript 
 	local script = Instance.new('LocalScript', Page_4)
 
 	local function findPlayer(name)
@@ -1136,8 +1135,8 @@ local function IHTZJX_fake_script() -- Page_4.LocalScript
 		_G.TweenDB=false
 	end)
 end
-coroutine.wrap(IHTZJX_fake_script)()
-local function CMQN_fake_script() -- Close.LocalScript 
+coroutine.wrap(PZKQ_fake_script)()
+local function KHJMU_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1145,8 +1144,8 @@ local function CMQN_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent.TextButton.Visible = true
 	end)
 end
-coroutine.wrap(CMQN_fake_script)()
-local function FDFDLAJ_fake_script() -- UltraClickers4.Draggable 
+coroutine.wrap(KHJMU_fake_script)()
+local function KEWMGM_fake_script() -- UltraClickers4.Draggable 
 	local script = Instance.new('LocalScript', UltraClickers4)
 
 	frame = script.Parent.Main
@@ -1154,4 +1153,4 @@ local function FDFDLAJ_fake_script() -- UltraClickers4.Draggable
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(FDFDLAJ_fake_script)()
+coroutine.wrap(KEWMGM_fake_script)()
